@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,6 +9,9 @@ function App() {
         <div className="alert alert-primary" role="alert">
           <p style={{ display: 'none' }} className="d-block">
             Bootstrap is now successfully installed 😃
+          </p>
+          <p style={{ display: 'none' }} className="d-block">
+            That's so cool
           </p>
           <p className="d-none">Bootstrap is not installed if you can see this 😢</p>
         </div>
