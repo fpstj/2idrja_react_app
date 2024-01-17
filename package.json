@@ -60,6 +60,6 @@
     "prettier": "^3.2.4"
   },
   "lint": "eslint .",
-"lint:fix": "eslint --fix",
-"format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+  "lint:fix": "eslint --fix",
+  "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
 }
