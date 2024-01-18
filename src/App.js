@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/ui/Navbar';
 
 function App() {
   return (
