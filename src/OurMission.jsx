@@ -39,7 +39,7 @@ const OurMisiion = () => {
           </div>
         </div>
 
-        <div className="d-flex flex-row bg-secondary h-75">
+        <div className="d-flex flex-row h-75">
           <div className="d-flex flex-column col-6 p-3">
             <h1>Our mission</h1>
             <hr />
