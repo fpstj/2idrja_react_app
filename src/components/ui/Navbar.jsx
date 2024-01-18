@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <>
       <nav className="navigation">
-        <a href="/" className="brand-name ">
-          <img src={logo} alt="logo of 2DRIJA" />
+        <a href="#">
+          <img className="logo" src={logo} alt="logo of 2DRIJA" />
         </a>
         <button
           type="button"
@@ -29,18 +29,31 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <div className={isNavbarExpanded ? 'navigation-menu expanded' : 'navigation-menu '}>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
+        <div>
+          <div className={isNavbarExpanded ? 'navigation-menu expanded' : 'navigation-menu '}>
+            <ul>
+              <li>
+                <a href="#" className="text-white fs-6">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white fs-6">
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white fs-6">
+                  Courses
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white fs-6">
+                  About
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </>
