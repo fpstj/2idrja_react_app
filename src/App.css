@@ -3,9 +3,7 @@
 }
 
 .background {
-  /* background-image: url('/public/images/BGImage.svg'); */
   background-image: url('/public/images/BGImage2.jpg');
-  /* background-image: url('/public/images/BGImage3.png'); */
   z-index: 1;
   background-size: cover;
   background-position: center;

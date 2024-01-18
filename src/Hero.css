@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
+
+.hero-content,
+.paragraph {
+  font-family: 'Lora', serif;
+}
