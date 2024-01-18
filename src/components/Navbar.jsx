@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-
+import logo from './icons/logo.svg';
 const Navbar = () => {
   const [isNavbarExpanded, setIsNavbarExpanded] = useState(false);
 
@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <nav className="navigation">
         <a href="/" className="brand-name ">
-          <p className="fw-bold">2DRIJA</p>
+          <img src={logo} alt="logo of 2DRIJA" />
         </a>
         <button
           type="button"
