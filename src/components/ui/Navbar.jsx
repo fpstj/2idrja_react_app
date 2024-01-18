@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navigation">
+      <nav className="navigation justify-content-center">
         <a href="#">
           <img className="logo" src={logo} alt="logo of 2DRIJA" />
         </a>
@@ -31,24 +31,29 @@ const Navbar = () => {
         </button>
         <div>
           <div className={isNavbarExpanded ? 'navigation-menu expanded' : 'navigation-menu '}>
-            <ul>
-              <li>
-                <a href="#" className="text-white fs-6">
+            <ul className="">
+              <li className="nav-item">
+                <a href="#" className=" nav-link text-white fs-6">
                   Home
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-white fs-6">
+              <li className="nav-item dropdown">
+                <a
+                  href="#"
+                  className=" nav-link fropdown-toggle text-white fs-6"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
                   Projects
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-white fs-6">
+              <li className="nav-item">
+                <a href="#" className="nav-link  text-white fs-6">
                   Courses
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-white fs-6">
+              <li className="nav-item">
+                <a href="#" className=" nav-link text-white fs-6">
                   About
                 </a>
               </li>
