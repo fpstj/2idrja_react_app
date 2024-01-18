@@ -1,11 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="background">
+        <Navbar />
         <div className="alert alert-primary" role="alert">
           <p style={{ display: 'none' }} className="d-block">
             Bootstrap is now successfully installed 😃
@@ -15,7 +17,7 @@ function App() {
           </p>
           <p className="d-none">Bootstrap is not installed if you can see this 😢</p>
         </div>
-      </header>
+      </div>
     </div>
   );
 }

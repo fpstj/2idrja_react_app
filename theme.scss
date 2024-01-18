@@ -1,0 +1,17 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+  body{
+    font-family: "Noto Sans", sans-serif !important;
+  }
+
+  $primary:#24263A;
+  $secondary:#6C93A8;
+  $light:#E1E1E1;
+  $dark:#1D1E2C;
+  $danger:#E03A45;
+  $white:#fafafa;
+  $info:#9AC1F0;
+
+  
+
+  @import "~bootstrap/scss/bootstrap.scss";
