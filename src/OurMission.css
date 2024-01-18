@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@4000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+hr {
+  margin-inline-end: 155px;
+}
