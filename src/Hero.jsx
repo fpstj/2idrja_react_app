@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         {/* paragraph */}
         <div className="pt-5 paragraph">
-          <p className=" d-flex fs-5  ps-5 m-0  text-white ">
+          <p className=" d-flex fs-5  ps-5 m-0 text-white ">
             We invite you to embark on a journey into the realms of cutting-edge research,
           </p>
         </div>

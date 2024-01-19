@@ -50,21 +50,11 @@ const OurMisiion = () => {
             </p>
           </div>
           <div className="d-flex flex-column col-6 p-3 pe-5 paragraph">
-            We are driven by a profound commitment to catalyzing progress through pioneering
-            research and innovation.Our focal point is a versatile approach aimed at advancing
-            knowledge, fostering groundbreaking discoveries, and pushing the boundaries of
-            possibility. Through strategic initiatives in research and development, technological
-            innovation, and collaborative partnerships with leading institutions and experts, we
-            endeavor to spearhead transformative changes in various fields.Our dedicated team is at
-            the forefront of scientific exploration, working tirelessly to unlock new solutions,
-            technologies, and methodologies that have the potential to reshape industries and
-            improve the overall human experience.Join us in our relentless pursuit of knowledge, as
-            we strive to create a world where innovation thrives and groundbreaking research propels
-            us towards a brighter
+            <img src="./images/passion led us here.png" alt="image of us" />
           </div>
         </div>
 
-        <div className="d-flex flex-row bg-danger h-75">h3</div>
+        <div className="d-flex flex-row h-75">h3</div>
       </div>
     </>
   );
