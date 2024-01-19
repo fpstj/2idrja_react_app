@@ -1,11 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-
-import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
 import './App.css';
 import Home from './components/Home';
 import ProjectsCoding from './components/ProjectsCoding';
-import ProjectsResearch from './components/ProjectsReasearch';
+import ProjectsResearch from './components/ProjectsResearch';
 import CoursesFrontend from './components/CoursesFrontend';
 import CoursesReact from './components/CoursesReact';
 import CoursesUIUX from './components/CoursesUIUX';

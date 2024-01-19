@@ -2,12 +2,12 @@
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
+import './Home.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/ui/Navbar';
-import Hero from './components/ui/Hero';
-import OurMisiion from './OurMission';
+import Navbar from './ui/Navbar';
+import Hero from './ui/Hero';
+import OurMisiion from './ui/OurMission';
 
 function Home() {
   return (
