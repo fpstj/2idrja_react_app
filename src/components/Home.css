@@ -1,0 +1,11 @@
+.background {
+  background-image: url('/public/images/BGImage2.jpg');
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+* {
+  scroll-behavior: smooth;
+}
