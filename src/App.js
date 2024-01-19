@@ -3,21 +3,28 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-
+import Home from './components/Home';
+import ProjectsCoding from './components/ProjectsCoding';
+import ProjectsResearch from './components/ProjectsReasearch';
+import CoursesFrontend from './components/CoursesFrontend';
+import CoursesReact from './components/CoursesReact';
+import CoursesUIUX from './components/CoursesUIUX';
+import About from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/ui/Navbar';
-import Hero from './components/ui/Hero';
-import OurMisiion from './OurMission';
 
 function App() {
   return (
-    <div className="App">
-      <div className="background">
-        <Navbar />
-        <Hero />
-      </div>
-      <OurMisiion />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projectscoding" element={<ProjectsCoding />} />
+        <Route path="/projectsresearch" element={<ProjectsResearch />} />
+        <Route path="/coursesfrontend" element={<CoursesFrontend />} />
+        <Route path="/coursesreact" element={<CoursesReact />} />
+        <Route path="/coursesuiux" element={<CoursesUIUX />} />
+        <Route path="/About" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
