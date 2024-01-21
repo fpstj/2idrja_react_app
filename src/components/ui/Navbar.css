@@ -1,0 +1,105 @@
+.logo {
+  width: 120px;
+  /* padding-bottom: 70px; */
+  /* height: 150px; */
+}
+
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: transparent;
+  color: black;
+  /* box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23); */
+}
+
+.brand-name {
+  color: black;
+  margin-left: 1rem;
+}
+
+.navigation-menu {
+  /* margin-left: auto; */
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.navigation-menu li {
+  /* removes default disc bullet for li tags and applies margin to left & right side */
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+  /* increases the surface area of the anchor tag to span more than just the anchor text */
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.hamburger {
+  /* removes default border on button element */
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  /* positions the icon to the right and center aligns it vertically */
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: purple;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .navigation-menu ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    color: whitesmoke;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: rgba(9, 9, 9, 0.1);
+    /* border-top: 1px solid black; */
+  }
+
+  .navigation-menu li {
+    /* centers link text and strips off margin */
+    text-align: center;
+    margin: 0;
+  }
+  .navigation-menu li a {
+    color: black;
+    /* increases the surface area of the anchor tag to span the full width of the menu */
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigation-menu li:hover {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 0.5) 0%, rgba(252, 70, 107, 0.5) 100%);
+  }
+
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+}

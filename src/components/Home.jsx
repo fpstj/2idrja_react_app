@@ -1,12 +1,23 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
 
-// Functional component
-const Home = () => {
+import React from 'react';
+import './Home.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './ui/Navbar';
+import Hero from './ui/Hero';
+import OurMisiion from './ui/OurMission';
+
+function Home() {
   return (
-    <div>
-      <h1>This is the Home component</h1>
+    <div className="App">
+      <div className="background">
+        <Navbar />
+        <Hero />
+      </div>
+      <OurMisiion />
     </div>
   );
-};
+}
 
 export default Home;
