@@ -1,12 +1,15 @@
 import React from 'react';
+import Navbar from './ui/Navbar';
+import Project from './ui/Project';
 
 // Functional component
-const Reasearch = () => {
+const Research = () => {
   return (
     <div>
-      <h1>This is the Reasearch projects component</h1>
+      <Navbar className="active text-white" />
+      <Project />
     </div>
   );
 };
 
-export default Reasearch;
+export default Research;
