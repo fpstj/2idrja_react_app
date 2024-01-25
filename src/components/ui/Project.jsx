@@ -9,8 +9,8 @@ const Project = () => {
         <div className="d-flex flex-row justify-content-between mt-4 mb-5">
           <div className="d-flex flex-column col-md-5 col-sm-10 ms-5 align-self-start mt-2">
             <div className="frame">
-              <h1 className="mt-3">Name of project</h1>
-              <div className="box mb-4">
+              <h1 className="mt-3 mb-2">Name of project</h1>
+              <div className="box mb-5">
                 <div className="lines">
                   <div className="overlap-group">
                     <div className="rectangle" />
@@ -18,8 +18,8 @@ const Project = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="pb-5">Key details of the project</h3>
-              <p>
+              <h3 className="mb-5">Key details of the project</h3>
+              <p className="pt-5">
                 We are driven by a profound commitment to catalyzing progress through pioneering
                 research and innovation.
                 <br />
@@ -54,7 +54,7 @@ const Project = () => {
           <div className="d-flex flex-column col-md-5 col-sm-10 ms-5 align-self-start mt-2">
             <div className="frame">
               <h1 className="mt-3">Name of project</h1>
-              <div className="box mb-4">
+              <div className="box mb-5">
                 <div className="lines">
                   <div className="overlap-group">
                     <div className="rectangle"></div>
@@ -62,8 +62,8 @@ const Project = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="pb-5">Key details of the project</h3>
-              <p>
+              <h3 className="mb-5">Key details of the project</h3>
+              <p className="pt-5">
                 We are driven by a profound commitment to catalyzing progress through pioneering
                 research and innovation.
                 <br />

@@ -1,3 +1,12 @@
+h1 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+/* Lines */
 .frame .lines {
   position: relative;
   width: 550px;
@@ -23,3 +32,4 @@
   position: absolute;
   left: 0;
 }
+/* Lines */
