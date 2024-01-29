@@ -6,14 +6,46 @@ body {
   font-family: 'Manrope', sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Lora', serif;
+  text-align: start;
 }
 
 .paragraph {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 hr {
   margin-inline-end: 155px;
 }
+
+/* Lines */
+.frame .lines {
+  position: relative;
+  width: 550px;
+  height: 6px;
+}
+.frame .overlap-group {
+  position: relative;
+  height: 6px;
+}
+.frame .rectangle {
+  width: 550px;
+  height: 2px;
+  top: 4px;
+  background-color: #344152;
+  position: absolute;
+  left: 0;
+}
+.frame .rectangle-2 {
+  width: 275px;
+  height: 6px;
+  top: 0;
+  background-color: #344152;
+  position: absolute;
+  left: 0;
+}
+/* Lines */

@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './ui/Navbar';
 import Hero from './ui/Hero';
 import OurMisiion from './ui/OurMission';
+import Footer from './ui/Footer';
 
 function Home() {
   return (
@@ -15,7 +16,12 @@ function Home() {
         <Navbar />
         <Hero />
       </div>
-      <OurMisiion />
+      <div>
+        <OurMisiion />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
