@@ -22,7 +22,7 @@ function App() {
         <Route path="/coursesfrontend" element={<CoursesFrontend />} />
         <Route path="/coursesreact" element={<CoursesReact />} />
         <Route path="/coursesuiux" element={<CoursesUIUX />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );

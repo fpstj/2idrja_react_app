@@ -1,10 +1,13 @@
 import React from 'react';
+import Navbar from './ui/Navbar';
+import Project from './ui/Project';
 
 // Functional component
 const Coding = () => {
   return (
     <div>
-      <h1>This is the Coding projects component</h1>
+      <Navbar className="active text-white" />
+      <Project />
     </div>
   );
 };

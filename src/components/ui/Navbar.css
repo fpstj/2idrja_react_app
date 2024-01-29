@@ -66,6 +66,10 @@
   background-color: purple;
 }
 
+.active {
+  background: #14142b !important;
+}
+
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
