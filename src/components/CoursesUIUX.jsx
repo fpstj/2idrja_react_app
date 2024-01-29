@@ -6,6 +6,7 @@ import profileImg2 from './images/Profile_img_2.png';
 import profileImg3 from './images/Profile_img_3.png';
 import './Courses.css';
 import './CoursesUIUX.css';
+import Footer from './ui/Footer';
 
 // Functional component
 const UiUx = () => {
@@ -161,6 +162,7 @@ const UiUx = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

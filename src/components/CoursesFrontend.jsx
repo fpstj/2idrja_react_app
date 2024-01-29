@@ -6,6 +6,7 @@ import profileImg2 from './images/Profile_img_2.png';
 import profileImg3 from './images/Profile_img_3.png';
 import './Courses.css';
 import './CoursesFrontend.css';
+import Footer from './ui/Footer';
 
 // Functional component
 const Frontend = () => {
@@ -160,6 +161,9 @@ const Frontend = () => {
             🚀 💻 #CodeWithConfidence #FrontEndInstructor
           </p>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
