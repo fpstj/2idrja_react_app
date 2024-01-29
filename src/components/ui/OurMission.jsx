@@ -1,5 +1,6 @@
 import React from 'react';
 import './OurMission.css';
+import projectimg from '../images/passion.png';
 
 const OurMisiion = () => {
   return (
@@ -8,20 +9,13 @@ const OurMisiion = () => {
         {/* 1st row */}
         <div className="d-flex flex-row h-75 py-5">
           <div className="d-flex flex-column col-6 p-3">
-            <h1>WHAT WE DO</h1>
+            <h1 className="ps-5">WHAT WE DO</h1>
             <hr />
-            <p className=" text-start ps-5">
-              At the core of our organization lies a bold and unwavering mission: to pioneer
-              transformative change through relentless innovation and purpose-driven research. We
-              are on a quest to redefine possibilities, pushing the frontiers of knowledge to
-              address complex challenges and shape a future marked by progress. Guided by a
-              commitment to excellence, collaboration, and societal benefit, our mission is to be a
-              catalyst for positive impact. We aspire to lead the way in pioneering breakthroughs,
-              fostering a culture of curiosity, and driving meaningful advancements that resonate
-              globally. Join us on this journey as we strive to make an indelible mark on the world,
-              driven by a mission that transcends boundaries and inspires a legacy of innovation.
+
+            <p className="fw-bold fs-5 text-start ps-5">
+              "Unleashing Innovation, Igniting Change: Where
               <br />
-              Shapes a Limitless Future!"
+              Boundless Research Shapes a Limitless Future!"
             </p>
           </div>
           <div className="d-flex flex-column col-6 p-3 pe-5 paragraph">
@@ -38,23 +32,53 @@ const OurMisiion = () => {
             us towards a brighter
           </div>
         </div>
-
+        {/* 2nd row */}
         <div className="d-flex flex-row h-75">
           <div className="d-flex flex-column col-6 p-3">
-            <h1>Our mission</h1>
+            <h2 className="ps-5">Our mission</h2>
             <hr />
-            <p className="fw-bold fs-5 text-start ps-5">
-              "Unleashing Innovation, Igniting Change: Where Boundless Research
-              <br />
-              Shapes a Limitless Future!"
+            <p className=" text-start ps-5 paragraph">
+              At the core of our organization lies a bold and unwavering mission: to pioneer
+              transformative change through relentless innovation and purpose-driven research. We
+              are on a quest to redefine possibilities, pushing the frontiers of knowledge to
+              address complex challenges and shape a future marked by progress. Guided by a
+              commitment to excellence, collaboration, and societal benefit, our mission is to be a
+              catalyst for positive impact. We aspire to lead the way in pioneering breakthroughs,
+              fostering a culture of curiosity, and driving meaningful advancements that resonate
+              globally. Join us on this journey as we strive to make an indelible mark on the world,
+              driven by a mission that transcends boundaries and inspires a legacy of innovation.
             </p>
           </div>
           <div className="d-flex flex-column col-6 p-3 pe-5 paragraph">
-            <img src="./images/passion led us here.png" alt="image of us" />
+            <img className="image-fluid" src={projectimg} alt="image of us" />
           </div>
         </div>
+        {/* 3rd row */}
+        <div className="d-flex flex-row h-75">
+          <div className="d-flex flex-column col-6 p-3">
+            <h2 className="">
+              Our
+              <br />
+              core beliefs
+            </h2>
 
-        <div className="d-flex flex-row h-75">h3</div>
+            <hr />
+            <h3>PURPOSE</h3>
+          </div>
+          <div className="d-flex flex-column col-6 p-3 pe-5 paragraph">
+            <p className=" text-start ps-5 paragraph">
+              At the core of our organization lies a bold and unwavering mission: to pioneer
+              transformative change through relentless innovation and purpose-driven research. We
+              are on a quest to redefine possibilities, pushing the frontiers of knowledge to
+              address complex challenges and shape a future marked by progress. Guided by a
+              commitment to excellence, collaboration, and societal benefit, our mission is to be a
+              catalyst for positive impact. We aspire to lead the way in pioneering breakthroughs,
+              fostering a culture of curiosity, and driving meaningful advancements that resonate
+              globally. Join us on this journey as we strive to make an indelible mark on the world,
+              driven by a mission that transcends boundaries and inspires a legacy of innovation.
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
