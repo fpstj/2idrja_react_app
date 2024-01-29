@@ -19,6 +19,9 @@ function Home() {
       <div>
         <OurMisiion />
       </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
