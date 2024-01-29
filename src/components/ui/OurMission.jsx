@@ -9,8 +9,15 @@ const OurMisiion = () => {
         {/* 1st row */}
         <div className="d-flex flex-row h-75 py-5">
           <div className="d-flex flex-column col-6 p-3">
-            <h1 className="ps-5">WHAT WE DO</h1>
-            <hr />
+            <div className="frame">
+              <h1 className="ps-5 mt-3 mb-3">WHAT WE DO</h1>
+              <div className="lines">
+                <div className="overlap-group">
+                  <div className="rectangle"></div>
+                  <div className="rectangle-2"></div>
+                </div>
+              </div>
+            </div>
 
             <p className="fw-bold fs-5 text-start ps-5">
               "Unleashing Innovation, Igniting Change: Where
@@ -37,7 +44,7 @@ const OurMisiion = () => {
           <div className="d-flex flex-column col-6 p-3">
             <h2 className="ps-5">Our mission</h2>
             <hr />
-            <p className=" text-start ps-5 paragraph">
+            <p className="ps-5 paragraph">
               At the core of our organization lies a bold and unwavering mission: to pioneer
               transformative change through relentless innovation and purpose-driven research. We
               are on a quest to redefine possibilities, pushing the frontiers of knowledge to
@@ -54,19 +61,32 @@ const OurMisiion = () => {
           </div>
         </div>
         {/* 3rd row */}
-        <div className="d-flex flex-row h-75">
+        <div className="d-flex flex-row h-75 pb-5">
           <div className="d-flex flex-column col-6 p-3">
-            <h2 className="">
-              Our
-              <br />
-              core beliefs
-            </h2>
-
-            <hr />
-            <h3>PURPOSE</h3>
+            <div className="frame">
+              <h2>
+                Our
+                <br />
+                core beliefs
+              </h2>
+              <div className="lines">
+                <div className="overlap-group">
+                  <div className="rectangle"></div>
+                  <div className="rectangle-2"></div>
+                </div>
+              </div>
+            </div>
+            <p className="text-start fs-2 fw-bold">PURPOSE</p>
+            <div>
+              <p className="text-start fs-4">
+                "Meaningful work gives life purpose & connects you to something bigger than
+                yourself."
+              </p>
+              <p className="text-start">Germany Kent</p>
+            </div>
           </div>
-          <div className="d-flex flex-column col-6 p-3 pe-5 paragraph">
-            <p className=" text-start ps-5 paragraph">
+          <div className="d-flex flex-column col-6 p-3 pe-5 ">
+            <p className="ps-4 paragraph">
               At the core of our organization lies a bold and unwavering mission: to pioneer
               transformative change through relentless innovation and purpose-driven research. We
               are on a quest to redefine possibilities, pushing the frontiers of knowledge to
