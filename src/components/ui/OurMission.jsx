@@ -25,7 +25,7 @@ const OurMisiion = () => {
               Boundless Research Shapes a Limitless Future!"
             </p>
           </div>
-          <div className="d-flex flex-column col-6 p-3 pe-5 paragraph">
+          <div className="d-flex flex-column col-6 p-3 pe-5 paragraph lh-lg">
             We are driven by a profound commitment to catalyzing progress through pioneering
             research and innovation.Our focal point is a versatile approach aimed at advancing
             knowledge, fostering groundbreaking discoveries, and pushing the boundaries of
@@ -44,7 +44,7 @@ const OurMisiion = () => {
           <div className="d-flex flex-column col-6 p-3">
             <h2 className="ps-5">Our mission</h2>
             <hr />
-            <p className="ps-5 paragraph">
+            <p className="ps-5 paragraph lh-lg">
               At the core of our organization lies a bold and unwavering mission: to pioneer
               transformative change through relentless innovation and purpose-driven research. We
               are on a quest to redefine possibilities, pushing the frontiers of knowledge to
@@ -64,11 +64,7 @@ const OurMisiion = () => {
         <div className="d-flex flex-row h-75 pb-5 background-info ps-5">
           <div className="d-flex flex-column col-6 p-3">
             <div className="frame">
-              <h2>
-                Our
-                <br />
-                core beliefs
-              </h2>
+              <h2>Our core beliefs</h2>
               <div className="lines">
                 <div className="overlap-group">
                   <div className="rectangle"></div>
@@ -82,11 +78,13 @@ const OurMisiion = () => {
                 "Meaningful work gives life purpose & connects you to something bigger than
                 yourself."
               </p>
-              <p className="text-start">Germany Kent</p>
+              <p className="text-start">
+                <small className="text-body-secondary">Germany Kent</small>
+              </p>
             </div>
           </div>
           <div className="d-flex flex-column col-6 p-3 pe-5 ">
-            <p className="ps-4 paragraph">
+            <p className="ps-4 paragraph lh-lg pt-4">
               At the core of our organization lies a bold and unwavering mission: to pioneer
               transformative change through relentless innovation and purpose-driven research. We
               are on a quest to redefine possibilities, pushing the frontiers of knowledge to

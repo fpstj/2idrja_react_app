@@ -1,1 +1,9 @@
+.contact-us-form {
+  min-width: 200px;
+}
 
+.contact-us-btn {
+  max-width: 100px;
+  min-width: 100px;
+  border-radius: 8px;
+}
