@@ -1,9 +1,8 @@
 import React from 'react';
-import Footer from './ui/Footer2';
 import Navbar from './ui/Navbar';
 import library from './images/Library.png';
 import './About.css';
-import Footer from './ui/Footer.jsx';
+import Footer from './ui/Footer';
 
 const About = () => {
   return (
@@ -19,8 +18,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
-    </>
 
       <div className="d-flex flex-row pb-5">
         <div className="d-flex flex-column">
