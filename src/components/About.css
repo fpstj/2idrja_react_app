@@ -1,0 +1,9 @@
+h1 {
+  font-family: 'Lora', serif;
+  text-align: start;
+}
+
+.library-image {
+  min-width: 500px;
+  height: auto;
+}
