@@ -12,7 +12,7 @@ const Footer = () => {
         <Link className="navbar-brand" to="/">
           <img className="logo" src={logo} alt="logo of 2DRIJA" />
         </Link>
-        <p>Copyright © 2023 2IDRJA.</p>
+        <p>Copyright &copy; 2024 2IDRJA.</p>
         <p>All rights reserved</p>
       </div>
       {/* 2nd row */}
@@ -39,6 +39,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      {/* copy rights */}
     </div>
   );
 };
