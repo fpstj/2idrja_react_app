@@ -5,9 +5,9 @@ import projectimg from '../images/passion.png';
 const OurMisiion = () => {
   return (
     <>
-      <div className="mission-content d-flex flex-column justify-content-center align-items-center h-75 ps-5">
+      <div className="mission-content d-flex flex-column justify-content-center align-items-center">
         {/* 1st row */}
-        <div className="d-flex flex-row h-75 py-5">
+        <div className="d-flex flex-row h-75 py-5 ps-5">
           <div className="d-flex flex-column col-6 p-3">
             <div className="frame">
               <h1 className="ps-5 mt-3 mb-3">WHAT WE DO</h1>
@@ -40,7 +40,7 @@ const OurMisiion = () => {
           </div>
         </div>
         {/* 2nd row */}
-        <div className="d-flex flex-row h-75">
+        <div className="d-flex flex-row h-75 ps-5">
           <div className="d-flex flex-column col-6 p-3">
             <h2 className="ps-5">Our mission</h2>
             <hr />
@@ -61,7 +61,7 @@ const OurMisiion = () => {
           </div>
         </div>
         {/* 3rd row */}
-        <div className="d-flex flex-row h-75 pb-5">
+        <div className="d-flex flex-row h-75 pb-5 background-info ps-5">
           <div className="d-flex flex-column col-6 p-3">
             <div className="frame">
               <h2>

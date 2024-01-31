@@ -49,3 +49,7 @@ hr {
   left: 0;
 }
 /* Lines */
+
+.background-info {
+  background-color: rgba(108, 147, 168, 0.1);
+}
