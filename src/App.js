@@ -11,12 +11,14 @@ import CoursesReact from './components/CoursesReact';
 import CoursesUIUX from './components/CoursesUIUX';
 import About from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './components/Login';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/projectscoding" element={<ProjectsCoding />} />
         <Route path="/projectsresearch" element={<ProjectsResearch />} />
         <Route path="/coursesfrontend" element={<CoursesFrontend />} />
