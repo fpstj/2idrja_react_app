@@ -1,10 +1,12 @@
 import React from 'react';
 import './Login.css';
 import Footer from './ui/Footer';
+import Navbar from './ui/Navbar';
 
 const Login = () => {
   return (
     <>
+      <Navbar className="active text-white" />
       <div className="container-fluid container">
         <div className="signup-form">
           <form>

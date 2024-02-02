@@ -31,6 +31,16 @@ const Navbar = (props) => {
                   Home
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" aria-current="page">
+                  Register
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="/login">
+                  Login
+                </Link>
+              </li>
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle text-white"
