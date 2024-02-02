@@ -5,9 +5,9 @@ import Footer from './ui/Footer';
 const Login = () => {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid container">
         <div className="signup-form">
-          <form action="/examples/actions/confirmation.php" method="post">
+          <form>
             <h2>Register</h2>
             <p className="hint-text">Create your account. </p>
             <div className="form-group">
@@ -66,7 +66,7 @@ const Login = () => {
               </label>
             </div>
             <div className="form-group">
-              <button type="submit" className="btn btn-success btn-lg btn-block">
+              <button type="submit" className="btn btn-secondary btn-lg btn-block">
                 Register Now
               </button>
             </div>
