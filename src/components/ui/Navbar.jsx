@@ -32,7 +32,7 @@ const Navbar = (props) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" aria-current="page">
+                <Link className="nav-link text-white" aria-current="page" to="/register">
                   Register
                 </Link>
               </li>

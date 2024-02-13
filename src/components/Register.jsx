@@ -2,7 +2,6 @@ import React from 'react';
 import './Register.css';
 import Footer from './ui/Footer';
 import Navbar from './ui/Navbar';
-import { register } from 'module';
 
 const Register = () => {
   return (

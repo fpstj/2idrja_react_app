@@ -5,20 +5,19 @@ import './App.css';
 import Home from './components/Home';
 import ProjectsCoding from './components/ProjectsCoding';
 import ProjectsResearch from './components/ProjectsResearch';
-
+import Register from './components/Register';
 import CoursesFrontend from './components/CoursesFrontend';
 import CoursesReact from './components/CoursesReact';
 import CoursesUIUX from './components/CoursesUIUX';
 import About from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from './components/Login';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Register />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/projectscoding" element={<ProjectsCoding />} />
         <Route path="/projectsresearch" element={<ProjectsResearch />} />
         <Route path="/coursesfrontend" element={<CoursesFrontend />} />
