@@ -88,13 +88,13 @@ const RegistrationForm = () => {
                 />
               </div>
               <div className="form-group">
-                <label className="form-check-label">
+                <label className="form-check-label ">
                   <input type="checkbox" required="required" /> I accept the{' '}
                   <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a>
                 </label>
               </div>
               <div className="form-group">
-                <button type="submit" className="btn btn-secondary btn-lg btn-block">
+                <button type="submit" className="btn btn-primary btn-lg btn-block">
                   Register Now
                 </button>
               </div>
