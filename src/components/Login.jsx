@@ -33,10 +33,11 @@ const Login = () => {
                   />
                 </div>
               </div>
-              <div className="form-group">
-                <label className="form-check-label ">
+              <div className="form-group align-items-center ">
+                <label className="form-check-label">
                   <input type="checkbox" required="required" /> Remember me
                 </label>
+                <p className="ps-5 flex-column">Forgot password?</p>
               </div>
               <div className="form-group">
                 <button type="submit" className="btn btn-info btn-lg btn-block">
