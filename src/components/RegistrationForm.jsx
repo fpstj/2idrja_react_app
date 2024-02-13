@@ -1,8 +1,12 @@
 import './RegistrationForm.css';
 import Navbar from './ui/Navbar';
 import Footer from './ui/Footer';
+import React, { useState } from 'react';
+import { CountryDropdown } from 'react-country-region-selector';
 
 const RegistrationForm = () => {
+  const [country, setCountry] = useState('');
+
   return (
     <>
       <Navbar className="active text-white" />
@@ -39,13 +43,19 @@ const RegistrationForm = () => {
               </div>
               {/* country */}
               <div className="form-group">
-                <input
-                  type="text"
+                <CountryDropdown
                   className="form-control"
+                  value={country}
+                  onChange={(val) => setCountry(val)}
+                />
+
+                {/* <input
+                  type="text"
+                  
                   placeholder="Country"
                   name="country"
                   required
-                />
+                /> */}
               </div>
               {/* mobile */}
               <div className="form-group">
