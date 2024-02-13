@@ -5,7 +5,6 @@ import './App.css';
 import Home from './components/Home';
 import ProjectsCoding from './components/ProjectsCoding';
 import ProjectsResearch from './components/ProjectsResearch';
-import Register from './components/Register';
 import CoursesFrontend from './components/CoursesFrontend';
 import CoursesReact from './components/CoursesReact';
 import CoursesUIUX from './components/CoursesUIUX';
@@ -18,7 +17,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/registrationform" element={<RegistrationForm />} />
+        <Route path="/register" element={<RegistrationForm />} />
         <Route path="/projectscoding" element={<ProjectsCoding />} />
         <Route path="/projectsresearch" element={<ProjectsResearch />} />
         <Route path="/coursesfrontend" element={<CoursesFrontend />} />
