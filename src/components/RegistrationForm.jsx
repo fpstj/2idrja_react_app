@@ -1,12 +1,13 @@
 import './RegistrationForm.css';
 import Navbar from './ui/Navbar';
+import Footer from './ui/Footer';
 
 const RegistrationForm = () => {
   return (
     <>
       <Navbar className="active text-white" />
-      <form className="form-control">
-        <div className="container-fluid container">
+      <div className="background-wallpaper h-100">
+        <div className="container-fluid container ">
           <div className="signup-form">
             <form>
               <h2>Register</h2>
@@ -98,12 +99,16 @@ const RegistrationForm = () => {
                 </button>
               </div>
             </form>
-            <div className="text-center">
-              Already have an account? <a href="#">Sign in</a>
+            <div className="text-center text-white">
+              Already have an account?{' '}
+              <a href="#" className="text-blue">
+                Sign in
+              </a>
             </div>
           </div>
         </div>
-      </form>
+      </div>
+      <Footer />
     </>
   );
 };

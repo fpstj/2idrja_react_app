@@ -1,4 +1,21 @@
+.background-wallpaper {
+  /* background-color: #57769b; */
+
+  background: rgb(130, 160, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(130, 160, 217, 1) 0%,
+    rgba(130, 134, 199, 1) 50%,
+    rgba(186, 148, 179, 1) 100%
+  );
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 .form-control {
+  z-index: 2;
   height: 40px;
   box-shadow: none;
   color: #3c080b;
