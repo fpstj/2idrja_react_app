@@ -9,8 +9,9 @@ import CoursesFrontend from './components/CoursesFrontend';
 import CoursesReact from './components/CoursesReact';
 import CoursesUIUX from './components/CoursesUIUX';
 import About from './components/About';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import RegistrationForm from './components/RegistrationForm';
+import Login from './components/Login';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<RegistrationForm />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/projectscoding" element={<ProjectsCoding />} />
         <Route path="/projectsresearch" element={<ProjectsResearch />} />
         <Route path="/coursesfrontend" element={<CoursesFrontend />} />
