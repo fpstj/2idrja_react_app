@@ -1,9 +1,10 @@
 import React from 'react';
-import './Login.css';
+import './Register.css';
 import Footer from './ui/Footer';
 import Navbar from './ui/Navbar';
+import { register } from 'module';
 
-const Login = () => {
+const Register = () => {
   return (
     <>
       <Navbar className="active text-white" />
@@ -83,4 +84,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
