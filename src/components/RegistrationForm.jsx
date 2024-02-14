@@ -3,6 +3,7 @@ import Navbar from './ui/Navbar';
 import Footer from './ui/Footer';
 import React, { useState } from 'react';
 import { CountryDropdown } from 'react-country-region-selector';
+import { Link } from 'react-router-dom';
 
 const RegistrationForm = () => {
   const [country, setCountry] = useState('');
@@ -111,9 +112,9 @@ const RegistrationForm = () => {
             </form>
             <div className="text-center text-white">
               Already have an account?{' '}
-              <a href="#" className="text-blue">
+              <Link to="/login" className="text-blue">
                 Sign in
-              </a>
+              </Link>
             </div>
           </div>
         </div>
