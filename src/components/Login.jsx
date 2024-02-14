@@ -1,6 +1,7 @@
 import './Login.css';
 import Footer from './ui/Footer';
 import Navbar from './ui/Navbar';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
@@ -33,11 +34,12 @@ const Login = () => {
                   />
                 </div>
               </div>
-              <div className="form-group align-items-center ">
-                <label className="form-check-label">
+              {/* footer of form */}
+              <div className="form-group d-flex justify-content-between">
+                <label>
                   <input type="checkbox" required="required" /> Remember me
                 </label>
-                <p className="ps-5 flex-column">Forgot password?</p>
+                <Link to="#">Forgot password?</Link>
               </div>
               <div className="form-group">
                 <button type="submit" className="btn btn-info btn-lg btn-block">
