@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <>
       <Navbar className="active text-white" />
-      <div className="background-wallpaper h-100">
+      <div className="background-wallpaper-Login h-100">
         <div className="container-fluid container ">
           <div className="signup-form">
             <form>
