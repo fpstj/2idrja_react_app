@@ -12,7 +12,7 @@ import About from './components/About';
 import RegistrationForm from './components/RegistrationForm';
 import Login from './components/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CourseEnrollment from './components/CourseEnrollment';
+import CourseEnrollment from './components/ui/CourseEnrollment';
 
 function App() {
   return (
