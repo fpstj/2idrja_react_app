@@ -6,7 +6,7 @@ import Navbar from './ui/Navbar';
 import Hero from './ui/Hero';
 import OurMisiion from './ui/OurMission';
 import Footer from './ui/Footer';
-import CourseEnrollment from './CourseEnrollment';
+import CourseEnrollment from './ui/CourseEnrollment';
 
 function Home() {
   // const [showModal, setShowModal] = useState(false);
