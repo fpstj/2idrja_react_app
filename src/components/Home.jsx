@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import React, { useState } from 'react';
+import React from 'react';
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './ui/Navbar';
@@ -9,14 +9,14 @@ import Footer from './ui/Footer';
 import CourseEnrollment from './CourseEnrollment';
 
 function Home() {
-  const [showModal, setShowModal] = useState(false);
+  // const [showModal, setShowModal] = useState(false);
 
-  const handleEnrollClick = () => {
-    setShowModal(true);
-  };
-  const closeModal = () => {
-    setShowModal(false);
-  };
+  // const handleEnrollClick = () => {
+  //   setShowModal(true);
+  // };
+  // const closeModal = () => {
+  //   setShowModal(false);
+  // };
   return (
     <div className="App">
       <div className="background">
@@ -26,7 +26,8 @@ function Home() {
       <div>
         <OurMisiion />
       </div>
-      <div className="enrollment-homepage">
+
+      {/* <div className="enrollment-homepage">
         <card>
           <button
             type="button"
@@ -35,11 +36,12 @@ function Home() {
             Enroll now
           </button>
         </card>
-      </div>
+      </div> */}
       <div>
         <Footer />
       </div>
-      {showModal && (
+
+      {/* {showModal && (
         <div className="modal">
           <div className="modal-content">
             <span className="close" onClick={closeModal}>
@@ -50,7 +52,11 @@ function Home() {
             <CourseEnrollment />
           </div>
         </div>
-      )}
+      )} */}
+
+      <div>
+        <CourseEnrollment />
+      </div>
     </div>
   );
 }

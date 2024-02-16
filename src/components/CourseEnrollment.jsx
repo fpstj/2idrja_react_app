@@ -1,45 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './CourseEnrollment.css';
 
 const CourseEnrollment = () => {
-  const [courseName, setCourseName] = useState('');
-  const [duration, setDuration] = useState('');
-  const [price, setPrice] = useState('');
-  const [places, setPlaces] = useState('');
-
   const handleEnroll = () => {
     // Implement your enroll logic here
-    console.log('Enrolling in course:', { courseName, duration, price, places });
   };
 
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="Course Name"
-        value={courseName}
-        onChange={(e) => setCourseName(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="Duration"
-        value={duration}
-        onChange={(e) => setDuration(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="Price"
-        value={price}
-        onChange={(e) => setPrice(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="Places"
-        value={places}
-        onChange={(e) => setPlaces(e.target.value)}
-      />
-      <button onClick={handleEnroll}>Enroll</button>
-    </div>
+    <>
+      <card className=" d-flex flex-row fluid justify-content-center align-items-center">
+        <table className="table-view background-enrollment p-5 m-5 ">
+          <tr className="card-row justify-content-between align-items-center text-dark">
+            <td className="ps-5">React for begginers</td>
+
+            <td className="ps-5">from 01 jan - 30 may</td>
+            <td className="ps-5">399€</td>
+
+            <td className="ps-5">2 places left</td>
+            <td className="btn-enroll ps-2">
+              <button type="button" className="btn  text-white btn-custom" onClick={handleEnroll}>
+                Enroll
+              </button>
+            </td>
+          </tr>
+        </table>
+      </card>
+    </>
   );
 };
 

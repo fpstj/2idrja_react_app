@@ -37,7 +37,7 @@ const Login = () => {
               {/* footer of form */}
               <div className="form-group d-flex justify-content-between">
                 <label>
-                  <input type="checkbox" required="required" /> Remember me
+                  <input type="checkbox" /> Remember me
                 </label>
                 <Link to="#">Forgot password?</Link>
               </div>
