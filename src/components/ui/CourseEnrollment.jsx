@@ -4,6 +4,7 @@ import './CourseEnrollment.css';
 const CourseEnrollment = () => {
   const handleEnroll = () => {
     // Implement your enroll logic here
+    console.log('enroll');
   };
 
   return (
