@@ -2,11 +2,6 @@ import React from 'react';
 import './CourseEnrollment.css';
 
 const CourseEnrollment = () => {
-  const handleEnroll = () => {
-    // Implement your enroll logic here
-    console.log('enroll');
-  };
-
   return (
     <>
       <card className=" d-flex flex-row fluid justify-content-center align-items-center">
@@ -19,7 +14,7 @@ const CourseEnrollment = () => {
 
             <td className="ps-5">2 places left</td>
             <td className="btn-enroll ps-2">
-              <button type="button" className="btn  text-white btn-custom" onClick={handleEnroll}>
+              <button type="button" className="btn text-white btn-custom">
                 Enroll
               </button>
             </td>

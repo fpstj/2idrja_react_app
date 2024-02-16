@@ -38,6 +38,9 @@ function Home() {
         </card>
       </div> */}
       <div>
+        <CourseEnrollment />
+      </div>
+      <div>
         <Footer />
       </div>
 
@@ -53,10 +56,6 @@ function Home() {
           </div>
         </div>
       )} */}
-
-      <div>
-        <CourseEnrollment />
-      </div>
     </div>
   );
 }
