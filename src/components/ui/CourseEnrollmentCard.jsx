@@ -1,13 +1,26 @@
+import './CourseEnrollmentCard.css';
+
 const CourseEnrollmentCard = () => {
   return (
     <>
-      <div class="card">
-        <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-        <div class="card-body">
-          <h4 class="card-title">Title</h4>
-          <p class="card-text">Text</p>
+      <>
+        <div className="enrollment-card  d-flex justify-content-center align-items-center ">
+          <div className="card-background ">
+            <div className="card-body justify-content-center align-items-center ">
+              <h4 className="card-title text-center p-5">Title</h4>
+              <p className="card-text">Text</p>
+              <p className="card-text">Text</p>
+              <p className="card-text">Text</p>
+              <p className="card-text">Text</p>
+              <div className="pt-5">
+                <button type="button" className="btn text-white btn-custom">
+                  Enroll
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </>
     </>
   );
 };

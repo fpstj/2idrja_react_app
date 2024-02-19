@@ -1,0 +1,12 @@
+.card-background {
+  background: #b92b27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565c0, #b92b27); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565c0, #b92b27);
+  border-radius: 12px;
+}
+
+.card-body {
+  width: 350px;
+  height: 400px;
+  border-radius: 15px;
+}

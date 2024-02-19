@@ -7,6 +7,7 @@ import Hero from './ui/Hero';
 import OurMisiion from './ui/OurMission';
 import Footer from './ui/Footer';
 import CourseEnrollment from './ui/CourseEnrollment';
+import CourseEnrollmentCard from './ui/CourseEnrollmentCard';
 
 function Home() {
   // const [showModal, setShowModal] = useState(false);
@@ -26,6 +27,8 @@ function Home() {
       <div>
         <OurMisiion />
       </div>
+
+      {/* enrollment section */}
 
       {/* <div className="enrollment-homepage">
         <card>
@@ -51,7 +54,9 @@ function Home() {
           price="199€"
         />
       </div>
-      <div></div>
+      <div className="justify-content-center align-items-center">
+        <CourseEnrollmentCard />
+      </div>
 
       <div>
         <Footer />
