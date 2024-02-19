@@ -1,0 +1,31 @@
+.background-enrollment {
+  background: #b92b27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565c0, #b92b27); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565c0, #b92b27);
+}
+
+.table-view {
+  width: 900px;
+  border-radius: 16px;
+}
+.card-row {
+  padding: 50px;
+  margin: 50px;
+}
+
+.btn-enroll {
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 12px;
+}
+
+.btn-custom {
+  width: 130px;
+  border-radius: 3px;
+  border: 1px solid gray !important;
+  border-radius: 6px;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(to right, #b92b27, #1565c0);
+}

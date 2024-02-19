@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <>
       <Navbar className="active text-white" />
-      <div className="background-wallpaper h-100">
+      <div className="background-wallpaper-Login h-100">
         <div className="container-fluid container ">
           <div className="signup-form">
             <form>
@@ -37,7 +37,7 @@ const Login = () => {
               {/* footer of form */}
               <div className="form-group d-flex justify-content-between">
                 <label>
-                  <input type="checkbox" required="required" /> Remember me
+                  <input type="checkbox" /> Remember me
                 </label>
                 <Link to="#">Forgot password?</Link>
               </div>

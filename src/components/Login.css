@@ -1,11 +1,6 @@
-.background-wallpaper {
-  background: rgb(130, 160, 217);
-  background: linear-gradient(
-    90deg,
-    rgba(130, 160, 217, 1) 0%,
-    rgba(130, 134, 199, 1) 50%,
-    rgba(186, 148, 179, 1) 100%
-  );
+.background-wallpaper-Login {
+  background: rgb(193, 147, 197);
+  background: linear-gradient(90deg, rgba(193, 147, 197, 1) 0%, rgba(123, 198, 204, 1) 100%);
   z-index: 1;
   background-size: cover;
   background-position: center;
