@@ -38,7 +38,18 @@ function Home() {
         </card>
       </div> */}
       <div>
-        <CourseEnrollment name="React for begginers" duration="from 01 jan - 30 may" price="399€" />
+        <CourseEnrollment
+          name="React for begginers"
+          duration="from 01 January - 30 May"
+          price="399€"
+        />
+      </div>
+      <div>
+        <CourseEnrollment
+          name="Js for begginers"
+          duration="from 01 june - 30 october"
+          price="199€"
+        />
       </div>
 
       <div>
