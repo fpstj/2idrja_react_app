@@ -51,6 +51,7 @@ function Home() {
           price="199€"
         />
       </div>
+      <div></div>
 
       <div>
         <Footer />
