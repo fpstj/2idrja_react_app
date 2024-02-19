@@ -42,20 +42,38 @@ function Home() {
       </div> */}
       <div>
         <CourseEnrollment
-          name="React for begginers"
+          title="React for begginers"
           duration="from 01 January - 30 May"
           price="399€"
         />
-      </div>
-      <div>
         <CourseEnrollment
-          name="Js for begginers"
+          title="Js for begginers"
+          duration="from 01 june - 30 october"
+          price="199€"
+        />
+        <CourseEnrollment
+          title="Js for begginers"
           duration="from 01 june - 30 october"
           price="199€"
         />
       </div>
-      <div className="justify-content-center align-items-center">
-        <CourseEnrollmentCard />
+
+      <div className="justify-content-center align-items-center d-flex">
+        <CourseEnrollmentCard
+          title="React for begginers"
+          duration="from 01 January - 30 May"
+          price="399$"
+        />
+        <CourseEnrollmentCard
+          title="JS for begginers"
+          duration="from 01 January - 30 May"
+          price="399$"
+        />
+        <CourseEnrollmentCard
+          title="JS for begginers"
+          duration="from 01 January - 30 May"
+          price="399$"
+        />
       </div>
 
       <div>
