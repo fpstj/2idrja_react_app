@@ -10,14 +10,6 @@ import CourseEnrollment from './ui/CourseEnrollment';
 import CourseEnrollmentCard from './ui/CourseEnrollmentCard';
 
 function Home() {
-  // const [showModal, setShowModal] = useState(false);
-
-  // const handleEnrollClick = () => {
-  //   setShowModal(true);
-  // };
-  // const closeModal = () => {
-  //   setShowModal(false);
-  // };
   return (
     <div className="App">
       <div className="background">
@@ -27,19 +19,7 @@ function Home() {
       <div>
         <OurMisiion />
       </div>
-
       {/* enrollment section */}
-
-      {/* <div className="enrollment-homepage">
-        <card>
-          <button
-            type="button"
-            className="btn btn-danger btn-lg btn-block btn-enrollment"
-            onClick={handleEnrollClick}>
-            Enroll now
-          </button>
-        </card>
-      </div> */}
       <div>
         <CourseEnrollment
           title="React for begginers"
@@ -57,7 +37,6 @@ function Home() {
           price="199€"
         />
       </div>
-
       <div className="justify-content-center align-items-center d-flex">
         <CourseEnrollmentCard
           title="React for begginers"
@@ -75,23 +54,10 @@ function Home() {
           price="399$"
         />
       </div>
-
+      {/* end of enrollment section */}
       <div>
         <Footer />
       </div>
-
-      {/* {showModal && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={closeModal}>
-              &times;
-            </span>
-
-            <h2>Enroll in a Course</h2>
-            <CourseEnrollment />
-          </div>
-        </div>
-      )} */}
     </div>
   );
 }
