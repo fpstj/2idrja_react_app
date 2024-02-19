@@ -23,18 +23,21 @@ function Home() {
       <div>
         <CourseEnrollment
           title="React for begginers"
-          duration="from 01 January - 30 May"
+          duration="01 January - 30 May"
           price="399€"
+          places="2 places left"
         />
         <CourseEnrollment
           title="Js for begginers"
-          duration="from 01 june - 30 october"
+          duration="01 june - 30 october"
           price="199€"
+          places="2 places left"
         />
         <CourseEnrollment
           title="Js for begginers"
-          duration="from 01 june - 30 october"
+          duration="01 june - 30 october"
           price="199€"
+          places="2 places left"
         />
       </div>
       <div className="justify-content-center align-items-center d-flex">
@@ -42,16 +45,19 @@ function Home() {
           title="React for begginers"
           duration="from 01 January - 30 May"
           price="399$"
+          places="2 places left"
         />
         <CourseEnrollmentCard
           title="JS for begginers"
           duration="from 01 January - 30 May"
           price="399$"
+          places="12 places left"
         />
         <CourseEnrollmentCard
           title="JS for begginers"
           duration="from 01 January - 30 May"
           price="399$"
+          places="1 places left"
         />
       </div>
       {/* end of enrollment section */}

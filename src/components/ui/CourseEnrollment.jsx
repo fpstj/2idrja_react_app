@@ -7,7 +7,7 @@ const CourseEnrollment = (props) => {
       <card className=" d-flex flex-row fluid justify-content-center align-items-center">
         <table className="table-view background-enrollment p-5 m-3 ">
           <tr className="card-row justify-content-between align-items-center text-white">
-            <td className="ps-5 fs-5">{props.title}</td>
+            <td className="ps-5 fs-4 fw-bold text-primary">{props.title}</td>
 
             <td className="ps-5">{props.duration}</td>
             <td className="ps-5">{props.price}</td>
