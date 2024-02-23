@@ -8,6 +8,7 @@ import OurMisiion from './ui/OurMission';
 import Footer from './ui/Footer';
 import CourseEnrollment from './ui/CourseEnrollment';
 import CourseEnrollmentCard from './ui/CourseEnrollmentCard';
+import Testimonials from './ui/Testimonials';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       </div>
       <div>
         <OurMisiion />
+        <Testimonials />
       </div>
       {/* enrollment section */}
       <div>
