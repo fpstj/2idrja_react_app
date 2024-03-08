@@ -13,7 +13,7 @@ const Frontend = () => {
   return (
     <div className="container-fluid p-0 m-0">
       <Navbar className="active text-white" />
-      <img className="img-fluid" src={coursesFrontEndImg} alt="Frontend course cover image" />
+      <img className="img-fluid w-100" src={coursesFrontEndImg} alt="Frontend course cover image" />
       <div className="d-flex flex-column my-5 frame">
         <h1 className="mt-3 mb-2 ms-5">Front-end development</h1>
         <div className="box mb-5">
