@@ -5,7 +5,6 @@ import './Footer.css';
 
 // Functional component
 const Footer = () => {
-  // const sendMailTo = () => {};
   return (
     <div className="bg-primary text-white p-5 d-flex flex-row justify-content-around">
       {/* 1st row */}
