@@ -10,10 +10,10 @@ const Footer = () => {
       {/* 1st row */}
       <div className=" d-flex flex-column col-3 justify-content-center align-items-center p-3">
         <Link className="navbar-brand" to="/">
-          <img className="logo" src={logo} alt="logo of 2DRIJA" />
+          <img className="logo" src={logo} alt="logo of 2DRIJA" style={{ width: '70px' }} />
         </Link>
-        <p>Copyright &copy; 2024 2IDRJA.</p>
-        <p>All rights reserved</p>
+        <p className="text-center">Copyright &copy; 2024 2IDRJA.</p>
+        <p className="text-center">All rights reserved</p>
       </div>
       {/* 2nd row */}
       <div className="d-flex flex-column col-9 justify-content-center align-items-center p-3">

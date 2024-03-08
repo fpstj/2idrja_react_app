@@ -12,7 +12,7 @@ const Navbar = (props) => {
       <nav className={'navbar navbar-expand-lg' + (props.className ? ' ' + props.className : '')}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img className="logo" src={logo} alt="logo of 2DRIJA" />
+            <img className="logo" src={logo} alt="logo of 2DRIJA" style={{ width: '80px' }} />
           </Link>
           <button
             className="navbar-toggler"
@@ -24,23 +24,18 @@ const Navbar = (props) => {
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            className="collapse navbar-collapse justify-content-center align-items-center"
+            id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link text-white" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white" aria-current="page" to="/register">
-                  Register
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white" to="/login">
-                  Login
-                </Link>
-              </li>
+
+              {/* register and login old loaction */}
+
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle text-white"
@@ -91,6 +86,19 @@ const Navbar = (props) => {
               <li className="nav-item">
                 <Link className="nav-link text-white" to="/about">
                   About
+                </Link>
+              </li>
+            </ul>
+
+            <ul className="navbar-nav me-5  mb-lg-0 ">
+              <li className="nav-item">
+                <Link className="nav-link text-white" aria-current="page" to="/register">
+                  Register
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="/login">
+                  Login
                 </Link>
               </li>
             </ul>
