@@ -2,7 +2,7 @@ import React from 'react';
 import Send from '../icons/send.svg';
 
 // Functional component
-const Footer = () => {
+const Footer2 = () => {
   return (
     <div className="container-fluid">
       <div className="container">
@@ -30,4 +30,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer2;

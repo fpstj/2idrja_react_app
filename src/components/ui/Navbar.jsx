@@ -12,7 +12,7 @@ const Navbar = (props) => {
       <nav className={'navbar navbar-expand-lg' + (props.className ? ' ' + props.className : '')}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img className="logo" src={logo} alt="logo of 2DRIJA" />
+            <img className="logo" src={logo} alt="logo of 2DRIJA" style={{ width: '80px' }} />
           </Link>
           <button
             className="navbar-toggler"
@@ -24,23 +24,18 @@ const Navbar = (props) => {
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            className="collapse navbar-collapse justify-content-center align-items-center"
+            id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link text-white" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white" aria-current="page" to="/register">
-                  Register
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white" to="/login">
-                  Login
-                </Link>
-              </li>
+
+              {/* register and login old loaction */}
+
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle text-white"
@@ -94,76 +89,22 @@ const Navbar = (props) => {
                 </Link>
               </li>
             </ul>
-          </div>
-        </div>
-      </nav>
-      {/* <nav className="navigation justify-content-center">
-        <a href="#">
-          <img className="logo" src={logo} alt="logo of 2DRIJA" />
-        </a>
-        <button
-          type="button"
-          aria-label="hamburger"
-          className="hamburger"
-          onClick={() => {
-            setIsNavbarExpanded(!isNavbarExpanded);
-          }}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="white">
-            <path
-              fillRule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </button>
-        <div>
-          <div className={isNavbarExpanded ? 'navigation-menu expanded' : 'navigation-menu '}>
-            <ul className="">
+
+            <ul className="navbar-nav me-5  mb-lg-0 ">
               <li className="nav-item">
-                <Link className=" nav-link text-white fs-6" to="/">
-                  Home
+                <Link className="nav-link text-white" aria-current="page" to="/register">
+                  Register
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  href="#"
-                  className=" nav-link fropdown-toggle text-white fs-6"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Projects
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link className="dropdown-item" to="/projectscoding">
-                      Coding Projects
-                    </Link>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" to="/projectsresearch">
-                      Research Projects
-                    </a>
-                  </li>
-                </ul>
-              </li>
               <li className="nav-item">
-                <a href="#" className="nav-link  text-white fs-6">
-                  Courses
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#" className=" nav-link text-white fs-6">
-                  About
-                </a>
+                <Link className="nav-link text-white" to="/login">
+                  Login
+                </Link>
               </li>
             </ul>
           </div>
         </div>
-      </nav> */}
+      </nav>
     </>
   );
 };
