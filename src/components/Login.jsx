@@ -7,10 +7,10 @@ const Login = () => {
   return (
     <>
       <Navbar className="active text-white" />
-      <div className="background-wallpaper-Login h-100">
-        <div className="container-fluid container ">
-          <div className="signup-form">
-            <form>
+      <div className="background-wallpaper-Login d-flex">
+        <div className="position-relative container-fluid container">
+          <div className="signup-form position-absolute top-50 start-50 translate-middle">
+            <form className="mt-5">
               <h2>Login</h2>
               <div className="form-group">
                 {/* email */}
@@ -47,6 +47,12 @@ const Login = () => {
                 </button>
               </div>
             </form>
+            <div className="text-center text-white mb-5">
+              Dont have an account?{' '}
+              <Link to="/register" className="text-blue">
+                Sign up
+              </Link>
+            </div>
           </div>
         </div>
       </div>
