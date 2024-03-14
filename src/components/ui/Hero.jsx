@@ -5,25 +5,25 @@ const Hero = () => {
     <>
       <div className="hero-content d-flex flex-column justify-content-center align-items-start h-75 ps-5">
         {/* header */}
-        <div>
-          <p className=" d-flex  fs-1 fw-bold ps-5 m-0  text-white">WE TAKE INOVATION</p>
+        <div className="title">
+          <h1 className="ps-5 m-0 text-white display-2">WE TAKE INOVATION</h1>
         </div>
-        <div>
-          <p className=" d-flex  fs-1 fw-bold ps-5 m-0 text-white text-white">& RESEARCH</p>
+        <div className="title text-white">
+          <h1 className="ps-5 m-0 text-white display-2">& RESEARCH</h1>
         </div>
-        <div>
-          <p className=" d-flex  fs-1 fw-bold ps-5 m-0  text-white">SERIOUSLY!</p>
+        <div className="title">
+          <h1 className="ps-5 m-0 text-white display-2">SERIOUSLY!</h1>
         </div>
         {/* paragraph */}
         <div className="pt-5 paragraph">
-          <p className=" d-flex fs-5  ps-5 m-0 text-white ">
+          <h5 className="d-flex ps-5 m-0 text-white">
             We invite you to embark on a journey into the realms of cutting-edge research,
-          </p>
+          </h5>
         </div>
         <div>
-          <p className="d-flex fs-5 text-white ps-5 m-0  ">
+          <h5 className="d-flex text-white ps-5 m-0">
             pioneering initiatives, and transformative solutions.
-          </p>
+          </h5>
         </div>
       </div>
     </>
