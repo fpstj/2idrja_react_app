@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../icons/2drijaLogo.png';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import Send from '../icons/send.svg';
 
 // Functional component
 const Footer = () => {
@@ -32,11 +33,19 @@ const Footer = () => {
             <p className="text-start">Course name3</p>
             <p className="text-start">Course name4</p>
           </div>
-          <div className="col-4 justify-content-center align-items-center p-3">
+          <div className="col-md-4 col-sm-12 justify-content-center align-items-center p-3">
             <h6 className="pb-4 text-start">Stay up to date</h6>
-            <input type="email" className="form-control contact-us-form" />
-            <button className="contact-us-btn mt-3">Send</button>
-            <p className="pt-3 fs-5 text-start">Contact us </p>
+            <input
+              type="email"
+              className="form-control contact-us-form"
+              placeholder="Your email address"
+            />
+
+            <button className="contact-us-btn mt-3 ps-3 pe-1 ">
+              Contact us
+              <img src={Send} alt="send" />
+            </button>
+            {/* <p className="pt-3 fs-5 text-start"> </p> */}
           </div>
         </div>
       </div>
