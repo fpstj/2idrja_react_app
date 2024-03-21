@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../icons/2drijaLogo.png';
+import userLogo from '../icons/userLogo.svg';
 
 const Navbar = (props) => {
   // const [isNavbarExpanded, setIsNavbarExpanded] = useState(false);
