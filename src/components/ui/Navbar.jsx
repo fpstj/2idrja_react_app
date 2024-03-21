@@ -35,8 +35,6 @@ const Navbar = (props) => {
                 </Link>
               </li>
 
-              {/* register and login old loaction */}
-
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle text-white"
