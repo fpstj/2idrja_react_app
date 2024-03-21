@@ -91,6 +91,10 @@ const Navbar = (props) => {
               </li>
             </ul>
 
+            <div className="dropdown">
+              <img className="" src={userLogo} />
+            </div>
+
             <ul className="navbar-nav me-5  mb-lg-0 ">
               <li className="nav-item">
                 <Link className="nav-link text-white" aria-current="page" to="/register">
