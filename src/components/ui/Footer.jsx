@@ -37,11 +37,11 @@ const Footer = () => {
             <h6 className="pb-4 text-start">Stay up to date</h6>
             <input
               type="email"
-              className="form-control contact-us-form"
-              placeholder="Your email address"
+              className="form-control contact-us-form email-contact"
+              placeholder="Your email address ..."
             />
 
-            <button className="contact-us-btn mt-3 ps-3 pe-1 ">
+            <button className="contact-us-btn mt-3 ps-1 pe-1 ">
               Contact us
               <img src={Send} alt="send" />
             </button>
