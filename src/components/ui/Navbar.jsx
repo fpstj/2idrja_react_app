@@ -89,11 +89,31 @@ const Navbar = (props) => {
               </li>
             </ul>
 
-            <div className="dropdown">
-              <img className="" src={userLogo} />
-            </div>
+            <ul className="navbar-nav  mb-lg-0 user-icon">
+              <li className="nav-item dropdown ">
+                <Link
+                  className="nav-link dropdown-toggle text-white"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <img src={userLogo} />
+                </Link>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link className="dropdown-item" to="/register">
+                      Register
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="/login">
+                      Login
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
 
-            <ul className="navbar-nav me-5  mb-lg-0 ">
+            {/* <ul className="navbar-nav me-5  mb-lg-0 ">
               <li className="nav-item">
                 <Link className="nav-link text-white" aria-current="page" to="/register">
                   Register
@@ -104,7 +124,7 @@ const Navbar = (props) => {
                   Login
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </nav>

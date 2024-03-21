@@ -101,3 +101,7 @@
     display: block;
   }
 }
+
+.user-icon {
+  padding-right: 5rem !important;
+}
