@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../icons/2drijaLogo.png';
+import userLogo from '../icons/userLogo.svg';
 
 const Navbar = (props) => {
   // const [isNavbarExpanded, setIsNavbarExpanded] = useState(false);
@@ -27,70 +28,95 @@ const Navbar = (props) => {
           <div
             className="collapse navbar-collapse justify-content-center align-items-center"
             id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-lg-0">
-              <li className="nav-item">
-                <Link className="nav-link text-white" aria-current="page" to="/">
-                  Home
-                </Link>
-              </li>
+            <div className="ms-auto">
+              <ul className="navbar-nav me-auto mb-lg-0">
+                <li className="nav-item">
+                  <Link className="nav-link text-white" aria-current="page" to="/">
+                    Home
+                  </Link>
+                </li>
 
-              {/* register and login old loaction */}
+                <li className="nav-item dropdown">
+                  <Link
+                    className="nav-link dropdown-toggle text-white"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Projects
+                  </Link>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link className="dropdown-item" to="/projectscoding">
+                        Coding projects
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/projectsresearch">
+                        Research projects
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item dropdown">
+                  <Link
+                    className="nav-link dropdown-toggle text-white"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Courses
+                  </Link>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link className="dropdown-item" to="/coursesfrontend">
+                        Front-end
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/coursesreact">
+                        React
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/coursesuiux">
+                        UI/UX
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link text-white" to="/about">
+                    About
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="ms-auto">
+              <ul className="navbar-nav  mb-lg-0 user-icon">
+                <li className="nav-item dropdown ">
+                  <Link
+                    className="nav-link dropdown-toggle text-white"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src={userLogo} />
+                  </Link>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link className="dropdown-item" to="/register">
+                        Register
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/login">
+                        Login
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
 
-              <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle text-white"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Projects
-                </Link>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link className="dropdown-item" to="/projectscoding">
-                      Coding projects
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/projectsresearch">
-                      Research projects
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle text-white"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Courses
-                </Link>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link className="dropdown-item" to="/coursesfrontend">
-                      Front-end
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/coursesreact">
-                      React
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/coursesuiux">
-                      UI/UX
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white" to="/about">
-                  About
-                </Link>
-              </li>
-            </ul>
-
-            <ul className="navbar-nav me-5  mb-lg-0 ">
+            {/* <ul className="navbar-nav me-5  mb-lg-0 ">
               <li className="nav-item">
                 <Link className="nav-link text-white" aria-current="page" to="/register">
                   Register
@@ -101,7 +127,7 @@ const Navbar = (props) => {
                   Login
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </nav>

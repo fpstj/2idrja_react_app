@@ -1,11 +1,14 @@
 .contact-us-form {
-  min-width: 220px;
+  min-width: 250px;
   min-height: 20px;
   border-radius: 4px !important;
+  background-color: rgb(209, 207, 207) !important;
+  font-size: 18px !important;
 }
 
 .contact-us-btn {
-  max-width: 250px;
-  min-width: 220px;
+  /* max-width: 250px; */
+  min-width: 250px;
+  min-height: 20px !important;
   border-radius: 4px;
 }
