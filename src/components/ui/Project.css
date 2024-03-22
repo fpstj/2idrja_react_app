@@ -6,7 +6,8 @@ h3 {
   font-weight: bolder;
 }
 
-/* Lines */
+/* Here are placed all css properties that are same for both Projects, CodingProjects and ResearchProject. */
+/* Lines-left */
 .frame .lines {
   position: relative;
   width: 550px;
@@ -32,4 +33,38 @@ h3 {
   position: absolute;
   left: 0;
 }
-/* Lines */
+
+/* Lines-left */
+
+/* Lines-right */
+
+.frame-right .lines-right {
+  width: 550px;
+  height: 6px;
+}
+.frame-right .overlap-group-right {
+  position: relative;
+  height: 6px;
+}
+.frame-right .rectangle-right {
+  width: 550px;
+  height: 2px;
+  top: 4px;
+  background-color: #344152;
+  position: absolute;
+  right: 0;
+}
+.frame-right .rectangle-2-right {
+  width: 275px;
+  height: 6px;
+  top: 0;
+  background-color: #344152;
+  position: absolute;
+  right: 0;
+}
+
+/* Lines-right */
+
+.img-thumbnail {
+  border: none !important;
+}

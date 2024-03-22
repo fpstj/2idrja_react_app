@@ -16,8 +16,10 @@ function Home() {
         <Navbar />
         <Hero />
       </div>
-      <div>
+      <div className="d-flex flex-row w-100">
         <OurMisiion />
+      </div>
+      <div className="d-flex flex-row">
         <Testimonials />
       </div>
       {/* enrollment section */}

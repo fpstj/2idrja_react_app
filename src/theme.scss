@@ -1,21 +1,22 @@
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Poppins&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
-  body{
-    font-family: "Noto Sans", sans-serif !important;
-    // font-family: 'Lora',serif !important;
-  }
+body {
+  font-family: 'Noto Sans', sans-serif !important;
+  // font-family: 'Lora',serif !important;
+}
 
-  $primary:#24263A;
-  $secondary:#6C93A8;
-  $light:#E1E1E1;
-  $dark:#1D1E2C;
-  $danger:#E03A45;
-  $white:#fafafa;
-  $info:#9AC1F0;
-  
+$primary: #24263a;
+$secondary: #6c93a8;
+$light: #e1e1e1;
+$dark: #1d1e2c;
+$danger: #e03a45;
+$white: #fafafa;
+$info: #9ac1f0;
+$gray: #eaf2fc;
+$gray-100: #d6e6f9;
+$gray-200: #c2d9f6;
+$gray-500: #aecdf3;
 
-  
-
-  @import "~bootstrap/scss/bootstrap.scss";
+@import '~bootstrap/scss/bootstrap.scss';

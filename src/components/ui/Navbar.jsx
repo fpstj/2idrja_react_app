@@ -100,7 +100,7 @@ const Navbar = (props) => {
                     aria-expanded="false">
                     <img src={userLogo} />
                   </Link>
-                  <ul className="dropdown-menu">
+                  <ul className="dropdown-menu dropdown-menu-end">
                     <li>
                       <Link className="dropdown-item" to="/register">
                         Register
