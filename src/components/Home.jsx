@@ -24,24 +24,28 @@ function Home() {
       </div>
       {/* enrollment section */}
 
-      <div className="justify-content-center align-items-center d-flex">
+      <div className="justify-content-center align-items-center d-flex p-5">
         <CourseEnrollmentCard
-          title="React for begginers"
-          duration="from 01 January - 30 May"
-          price="399$"
+          image="./images/html-wallpaper.jpg"
+          title="HTML course"
+          duration="01 January - 01 February"
+          price="99$"
           places="2 places left"
         />
         <CourseEnrollmentCard
-          title="JS for begginers"
-          duration="from 01 January - 30 May"
-          price="399$"
-          places="12 places left"
+          image="./images/html-css-js-wallpapers.jpg"
+          title="Frontend course"
+          duration="01 March - 15 April"
+          price="199$"
+          places="7 places left"
         />
+
         <CourseEnrollmentCard
-          title="JS for begginers"
-          duration="from 01 January - 30 May"
-          price="399$"
-          places="1 places left"
+          image="./images/jswallpaper.jpg"
+          title="JavaScript"
+          duration="01 May - 30 May"
+          price="89$"
+          places="1 place left"
         />
       </div>
       {/* end of enrollment section */}
