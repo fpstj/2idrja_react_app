@@ -53,3 +53,31 @@ hr {
 .background-info {
   background-color: rgba(108, 147, 168, 0.1);
 }
+
+/* Lines */
+.lines {
+  position: relative;
+  width: 550px;
+  height: 6px;
+}
+.overlap-group {
+  position: relative;
+  height: 6px;
+}
+.rectangle {
+  width: 550px;
+  height: 2px;
+  top: 4px;
+  background-color: #344152;
+  position: absolute;
+  left: 0;
+}
+.rectangle-2 {
+  width: 275px;
+  height: 6px;
+  top: 0;
+  background-color: #344152;
+  position: absolute;
+  left: 0;
+}
+/* Lines */

@@ -7,3 +7,11 @@ h1 {
   min-width: 500px;
   height: auto;
 }
+
+.about--title {
+  font-size: 3.2em !important;
+}
+
+.aboutus {
+  font-size: 2.8em !important;
+}
