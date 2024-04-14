@@ -24,7 +24,7 @@ function Home() {
       </div>
       {/* enrollment section */}
 
-      <div className="justify-content-around align-items-center d-flex p-5">
+      <div className=" d-md-flex justify-content-around align-items-center p-5">
         <CourseEnrollmentCard
           image="./images/html-wallpaper.jpg"
           title="HTML course"
