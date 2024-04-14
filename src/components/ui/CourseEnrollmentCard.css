@@ -1,15 +1,14 @@
 .card-background {
-  background: var(--bs-gray-300);
-  /* background: var(--bs-gray-white); */
+  /* background: var(--bs-gray-300); */
+  background: var(--bs-gray-white);
   /* background: linear-gradient(to right, #1565c0, #b92b27); */
-  border-radius: 18px;
-  border-color: 2px solid black !important;
+  border-radius: 12px;
 }
 
 .card-body {
   /* width: 20rem;
   height: 20rem; */
-  width: 300px;
+  /* width: 300px; */
   height: 300px;
 }
 
@@ -21,20 +20,20 @@
   opacity: 1;
   transition: 0.5s ease-in-out;
   z-index: 3;
-  border-color: 12px solid var(--bs-dark) !important;
-  box-shadow: 0px 2px 12px -8px rgba(0, 0, 0, 0.1);
+  border-color: 2px solid var(--bs-dark) !important;
+  /* box-shadow: 0px 2px 12px -8px rgba(0, 0, 0, 0.1); */
   /* transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1); */
 }
 
 .card-wallpaper {
   /* width: 20rem;
   height: 20rem; */
-  width: 320px;
-  border-radius: 1rem 1rem 0 0;
+  width: 300px;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .btn-custom {
-  border: 1px solid rgba(75, 102, 117, 1) !important;
+  border: 2px solid rgba(75, 102, 117, 1) !important;
 }
 
 .btn-custom:hover {
