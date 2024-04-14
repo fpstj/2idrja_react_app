@@ -47,7 +47,7 @@ const Footer = () => {
       {/* 3rd row */}
       <div className="d-flex flex-column col-4 justify-content-center align-items-between p-3">
         <div className="col-md-4 col-sm-12 justify-content-center align-items-center p-3">
-          <h6 className="pb-4 text-start">Stay up to date</h6>
+          <p className="pb-3 text-start fs-5">Stay up to date</p>
           <input
             type="email"
             className="form-control contact-us-form email-contact"
