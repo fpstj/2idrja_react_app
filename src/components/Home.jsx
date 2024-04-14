@@ -11,8 +11,8 @@ import Testimonials from './ui/Testimonials';
 
 function Home() {
   return (
-    <div className="App">
-      <div className="background">
+    <div className="">
+      <div className="background w-100">
         <Navbar />
         <Hero />
       </div>
@@ -24,7 +24,7 @@ function Home() {
       </div>
       {/* enrollment section */}
 
-      <div className="justify-content-center align-items-center d-flex p-5">
+      <div className="justify-content-around align-items-center d-flex p-5">
         <CourseEnrollmentCard
           image="./images/html-wallpaper.jpg"
           title="HTML course"
