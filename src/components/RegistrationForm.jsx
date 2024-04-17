@@ -11,8 +11,8 @@ const RegistrationForm = () => {
   return (
     <>
       <Navbar className="active text-white" />
-      <div className="background-wallpaper-RF ">
-        <div className="container-fluid container ">
+      <div className="background-wallpaper-RF">
+        <div className="container-fluid container">
           <div className="signup-form">
             <form>
               <h2>Register</h2>
@@ -49,14 +49,6 @@ const RegistrationForm = () => {
                   value={country}
                   onChange={(val) => setCountry(val)}
                 />
-
-                {/* <input
-                  type="text"
-                  
-                  placeholder="Country"
-                  name="country"
-                  required
-                /> */}
               </div>
               {/* mobile */}
               <div className="form-group">
@@ -108,14 +100,14 @@ const RegistrationForm = () => {
                 <button type="submit" className="btn btn-primary btn-lg btn-block">
                   Register Now
                 </button>
-                <div className="text-center text-dark p-2">
-                  Already have an account?{' '}
-                  <Link to="/login" className="text-blue">
-                    Sign in
-                  </Link>
-                </div>
               </div>
             </form>
+            <div className="text-center text-white pb-5">
+              Already have an account? &nbsp; &nbsp;
+              <Link to="/login" className="text-blue">
+                Sign in
+              </Link>
+            </div>
           </div>
         </div>
       </div>
