@@ -104,18 +104,18 @@ const RegistrationForm = () => {
                   <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a>
                 </label>
               </div>
-              <div className="form-group">
+              <div className="form-group pt-2">
                 <button type="submit" className="btn btn-primary btn-lg btn-block">
                   Register Now
                 </button>
+                <div className="text-center text-dark p-2">
+                  Already have an account?{' '}
+                  <Link to="/login" className="text-blue">
+                    Sign in
+                  </Link>
+                </div>
               </div>
             </form>
-            <div className="text-center text-white">
-              Already have an account?{' '}
-              <Link to="/login" className="text-blue">
-                Sign in
-              </Link>
-            </div>
           </div>
         </div>
       </div>
