@@ -3,7 +3,7 @@ import './Hero.css';
 const Hero = () => {
   return (
     <>
-      <div className="hero-content d-flex flex-column justify-content-center align-items-start h-75 ps-5">
+      <div className="hero-content d-flex flex-column justify-content-center align-items-start h-75 ps-5 col-10">
         {/* header */}
         <div className="title">
           <h1 className="ps-5 m-0 text-white display-2">WE TAKE INOVATION</h1>

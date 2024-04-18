@@ -10,7 +10,7 @@
   z-index: 1;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .form-control {
@@ -68,7 +68,7 @@
   padding: 30px;
 }
 .signup-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .signup-form input[type='checkbox'] {
   margin-top: 3px;

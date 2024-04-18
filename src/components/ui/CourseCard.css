@@ -1,0 +1,27 @@
+.course-image {
+  max-width: 320px;
+}
+
+.c-card {
+  opacity: 0.9;
+  /* border: 1px solid rgba(75, 102, 117, 1) !important; */
+}
+
+.c-card:hover {
+  opacity: 1;
+  transform: scale(1.07);
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+  z-index: 3;
+  /* border: 1px solid var(--bs-red) !important; */
+}
+
+.btn-custom {
+  border: 1px solid rgba(75, 102, 117, 1) !important;
+}
+
+.btn-custom:hover {
+  border: none;
+  background-color: rgba(75, 102, 117, 1) !important;
+  color: white !important;
+}

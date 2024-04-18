@@ -48,6 +48,7 @@ const About = () => {
             </p>
           </div>
         </div>
+
         <div className="d-flex flex-column col-6 pb-5">
           <img className="image-fluid library-image" src={library} alt="image of library" />
           <div className="boxes d-flex flex-column mx-3 rounded bg-gray-200 p-3 shadow-lg">
