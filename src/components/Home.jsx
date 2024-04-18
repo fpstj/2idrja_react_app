@@ -8,6 +8,7 @@ import OurMisiion from './ui/OurMission';
 import Footer from './ui/Footer';
 import CourseEnrollmentCard from './ui/CourseEnrollmentCard';
 import Testimonials from './ui/Testimonials';
+import CourseCard from './ui/CourseCard';
 
 function Home() {
   return (
@@ -24,14 +25,23 @@ function Home() {
       </div>
       {/* enrollment section */}
 
-      <div className=" d-md-flex justify-content-around align-items-center p-5">
-        <CourseEnrollmentCard
-          image="./images/html-wallpaper.jpg"
-          title="HTML course"
+      <div className=" d-flex justify-content-around align-items-center ">
+        <CourseCard
+          image="/images/html-wallpaper.jpg"
+          title="HTML Course"
           duration="01 January - 01 February"
           price="99$"
           places="2 places left"
         />
+
+        <CourseCard
+          image="./images/html-css-js-wallpapers.jpg"
+          title="Frontend course"
+          duration="01 March - 15 April"
+          price="199$"
+          places="7 places left"
+        />
+
         <CourseEnrollmentCard
           image="./images/html-css-js-wallpapers.jpg"
           title="Frontend course"
