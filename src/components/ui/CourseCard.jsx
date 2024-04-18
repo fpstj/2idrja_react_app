@@ -4,7 +4,7 @@ import './CourseCard.css';
 const CourseCard = (props) => {
   return (
     <>
-      <div className=" c-card d-flex flex-column justify-content-center align-items-center m-3 shadow-lg rounded">
+      <div className="c-card d-flex flex-column justify-content-center align-items-center m-3 shadow-lg rounded">
         <img
           className="d-flex image-fluid rounded-top course-image shadow-lg"
           src={props.image}

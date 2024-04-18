@@ -17,7 +17,7 @@ function Home() {
         <Navbar />
         <Hero />
       </div>
-      <div className="d-flex flex-row w-100">
+      <div className="d-flex flex-column">
         <OurMisiion />
       </div>
       <div className="d-flex flex-column">
