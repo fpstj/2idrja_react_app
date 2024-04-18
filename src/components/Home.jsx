@@ -12,7 +12,7 @@ import CourseCard from './ui/CourseCard';
 
 function Home() {
   return (
-    <div className="">
+    <>
       <div className="background w-100">
         <Navbar />
         <Hero />
@@ -20,11 +20,11 @@ function Home() {
       <div className="d-flex flex-row w-100">
         <OurMisiion />
       </div>
-      <div className="d-flex flex-row">
+      <div className="d-flex flex-column">
         <Testimonials />
       </div>
-      {/* enrollment section */}
 
+      {/* enrollment section */}
       <div className="card-parent d-flex justify-content-around align-items-center mx-5 px-5">
         <CourseCard
           image="/images/html-wallpaper.jpg"
@@ -74,7 +74,7 @@ function Home() {
       <div>
         <Footer />
       </div>
-    </div>
+    </>
   );
 }
 
