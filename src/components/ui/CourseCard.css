@@ -25,3 +25,15 @@
   background-color: rgba(75, 102, 117, 1) !important;
   color: white !important;
 }
+
+.paragraph {
+  font-weight: 700;
+}
+
+.paragraph-date {
+  font-weight: 600 !important;
+}
+
+.places-left {
+  font-weight: 800;
+}

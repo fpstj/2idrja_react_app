@@ -6,8 +6,8 @@ const OurMisiion = () => {
   return (
     <div className="d-flex flex-column w-100 pt-5">
       {/* 1st row */}
-      <div className="d-flex flex-row w-100">
-        <div className="frame d-flex flex-column col-6">
+      <div className="d-flex flex-column flex-lg-row w-100">
+        <div className="frame d-flex flex-column col-lg-6">
           <h1 className="mt-3 mb-2 ms-5">WHAT WE DO</h1>
           <div className="box mb-5">
             <div className="lines">
@@ -23,8 +23,8 @@ const OurMisiion = () => {
             Boundless Research Shapes a Limitless Future!"
           </p>
         </div>
-        <div className="d-flex flex-column col-6 w-100">
-          <div className="d-flex flex-column col-6 p-3 pe-5 paragraph lh-lg">
+        <div className="d-flex flex-row flex-lg-column col-lg-6 w-100">
+          <div className="d-flex flex-row flex-lg-column col-lg-6 p-3 pe-5 paragraph lh-lg">
             We are driven by a profound commitment to catalyzing progress through pioneering
             research and innovation.Our focal point is a versatile approach aimed at advancing
             knowledge, fostering groundbreaking discoveries, and pushing the boundaries of
@@ -41,8 +41,8 @@ const OurMisiion = () => {
       </div>
 
       {/* 2nd row */}
-      <div className="d-flex flex-row h-75 ps-5">
-        <div className="d-flex flex-column col-6 p-3">
+      <div className="d-flex flex-column flex-lg-row h-75 ps-lg-5">
+        <div className="d-flex flex-column col-lg-6 p-3">
           <h2 className="ps-5">Our mission</h2>
           <hr />
           <p className="ps-5 paragraph lh-lg">
@@ -57,7 +57,7 @@ const OurMisiion = () => {
             mission that transcends boundaries and inspires a legacy of innovation.
           </p>
         </div>
-        <div className="d-flex flex-column col-6 p-3 pe-5 paragraph">
+        <div className="d-flex flex-row flex-lg-column col-lg-6 p-3 pe-5 paragraph">
           <img className="image-fluid" src={projectimg} alt="image of us" />
         </div>
       </div>
@@ -65,7 +65,9 @@ const OurMisiion = () => {
       {/* 3rd row */}
       <div className="d-flex flex-row w-100">
         <div className="frame d-flex flex-column mt-5 background-info w-100">
-          <div className="d-flex flex-row w-100">
+          <div
+            className="d-flex flex-column flex-lg-row w-100
+          ">
             <div className="d-flex flex-column col-6">
               <h2 className="mt-3 my-4 ms-5">Our core beliefs</h2>
               <div className="box mb-4">
@@ -87,8 +89,8 @@ const OurMisiion = () => {
                 </p>
               </div>
             </div>
-            <div className="d-flex flex-column col-6 w-100">
-              <div className="d-flex flex-column col-6 p-3 pe-5 paragraph lh-lg">
+            <div className="d-flex flex-row flex-lg-column col-lg-6 w-100">
+              <div className="d-flex flex-row flex-lg-column col-lg-6 p-3 pe-5 paragraph lh-lg">
                 <p className="ps-4 paragraph lh-lg pt-4">
                   At the core of our organization lies a bold and unwavering mission: to pioneer
                   transformative change through relentless innovation and purpose-driven research.

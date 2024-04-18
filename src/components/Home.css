@@ -10,3 +10,7 @@
 * {
   scroll-behavior: smooth;
 }
+
+.card-parent {
+  height: 42em;
+}

@@ -6,31 +6,31 @@ const CourseCard = (props) => {
     <>
       <div className=" c-card d-flex flex-column justify-content-center align-items-center m-3 shadow-lg rounded">
         <img
-          className="image-fluid rounded-top course-image shadow-lg"
+          className="d-flex image-fluid rounded-top course-image shadow-lg"
           src={props.image}
           alt="image of course"
         />
-        {/* <div className="card-body rounded bg-gray-100 pt-3 shadow-lg"> */}
-        <div className="d-flex flex-row p-3 m-3 rounded justify-content-center align-items-center w-100">
-          <p className="fs-2">{props.title}</p>
+        <div className="d-flex flex-row p-3 mt-3 rounded justify-content-center align-items-center w-100">
+          <p className="paragraph fs-2">{props.title}</p>
         </div>
         <div className="d-flex flex-row  rounded justify-content-center align-items-center w-100">
-          <p className="fs-6">{props.duration}</p>
+          <p className="paragraph-date m-0">{props.duration}</p>
         </div>
         <div className="d-flex flex-row  rounded justify-content-center align-items-center w-100">
-          <p className="fs-2 text-danger fw-bold">{props.price}</p>
+          <p className="fs-2 text-secondary fw-bold me-4">
+            <s>{props.discount}</s>
+          </p>
+          <p className="fs-2 text-dark fw-bold">{props.price}</p>
         </div>
         <div className="d-flex flex-row  rounded justify-content-center align-items-center w-100">
-          <p className="fs-4 text-info">{props.places}</p>
+          <p className="places-left fs-4 text-danger">{props.places}</p>
         </div>
 
-        <div className="d-flex flex-row p-3 m-3 rounded w-100">
+        <div className="d-flex flex-row px-5 pb-4 pt-3 mb-3 rounded w-100">
           <button type="button" className="btn text-dark btn-custom w-100">
             Enroll now
           </button>
         </div>
-        {/* </div> */}
-        {/* </div> */}
       </div>
     </>
   );
