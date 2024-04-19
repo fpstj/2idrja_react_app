@@ -14,3 +14,10 @@
 .card-parent {
   height: 42em;
 }
+
+@media (max-width: 1000px) {
+  /* Adjust styles for smaller screens */
+   {
+    flex-direction: column; /* Stack items vertically */
+  }
+}

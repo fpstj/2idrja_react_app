@@ -33,7 +33,7 @@ hr {
   height: 6px;
 }
 .frame .rectangle {
-  width: 550px;
+  width: 450px;
   height: 2px;
   top: 4px;
   background-color: #344152;
@@ -41,7 +41,7 @@ hr {
   left: 0;
 }
 .frame .rectangle-2 {
-  width: 275px;
+  width: 255px;
   height: 6px;
   top: 0;
   background-color: #344152;
