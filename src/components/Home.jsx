@@ -24,8 +24,9 @@ function Home() {
         <Testimonials />
       </div>
 
-      {/* enrollment section */}
-      <div className="card-parent d-flex justify-content-around align-items-center mx-5 px-5">
+      <div
+        className="justify-content-center"
+        style={{ display: 'flex', flexWrap: 'wrap', gap: '30px' }}>
         <CourseCard
           image="/images/html-wallpaper.jpg"
           title="HTML Course"
@@ -52,8 +53,19 @@ function Home() {
           price="150$"
           places="7 places left"
         />
+      </div>
 
-        {/* <CourseEnrollmentCard
+      <div>
+        <Footer />
+      </div>
+    </>
+  );
+}
+
+export default Home;
+
+{
+  /* <CourseEnrollmentCard
           image="./images/html-css-js-wallpapers.jpg"
           title="Frontend course"
           duration="01 March - 15 April"
@@ -68,14 +80,5 @@ function Home() {
           discount="150$"
           price="89$"
           places="1 place left"
-        /> */}
-      </div>
-      {/* end of enrollment section */}
-      <div>
-        <Footer />
-      </div>
-    </>
-  );
+        /> */
 }
-
-export default Home;
