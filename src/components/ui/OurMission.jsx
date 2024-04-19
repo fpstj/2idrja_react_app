@@ -72,9 +72,9 @@ const OurMisiion = () => {
         <div className="d-flex flex-md-row flex-sm-column  background-info w-100 py-5">
           <div className="frame mt-5">
             {/* problematic row */}
-            <div className="d-flex flex-row">
+            <div className="d-flex flex-lg-row flex-md-column">
               {/* 1st col */}
-              <div className="col-6">
+              <div className="col-lg-6 col-sm-12 ">
                 <h2 className="mt-3 my-4 ms-5">Our core beliefs</h2>
 
                 <div className="box mb-4">
@@ -99,7 +99,7 @@ const OurMisiion = () => {
               </div>
 
               {/* 2nd col */}
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-sm-12">
                 <div className=" flex-lg-column p-3 pe-5 paragraph lh-lg">
                   <p className="ps-4 paragraph lh-lg pt-4">
                     At the core of our organization lies a bold and unwavering mission: to pioneer
