@@ -6,7 +6,7 @@ import Navbar from './ui/Navbar';
 import Hero from './ui/Hero';
 // import OurMisiion from './ui/OurMission';
 import Testimonials from './ui/Testimonials';
-// import Footer from './ui/Footer';
+import Footer from './ui/Footer';
 import CourseCard from './ui/CourseCard';
 // import CourseEnrollmentCard from './ui/CourseEnrollmentCard';
 
@@ -22,11 +22,7 @@ function Home() {
         <Testimonials />
       </div>
 
-      <div
-        className="course-list-container"
-        // className=" d-flex flex-row justify-content-center align-items-center"
-        // style={{ display: 'flex', flexWrap: 'wrap', gap: '30px' }}
-      >
+      <div className="course-list-container">
         <div className="course-list-wrapper">
           <CourseCard
             image="/images/html-wallpaper.jpg"
@@ -59,9 +55,10 @@ function Home() {
         </div>
       </div>
 
-      {/* <div>
+      <div>
         <Footer />
-      </div> */}
+        {/* <Footer2 /> */}
+      </div>
     </>
   );
 }

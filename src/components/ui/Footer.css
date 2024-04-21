@@ -12,3 +12,7 @@
   min-height: 20px !important;
   border-radius: 4px;
 }
+
+.email-form {
+  max-width: 250px;
+}
