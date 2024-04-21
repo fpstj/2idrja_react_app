@@ -13,11 +13,35 @@
 
 .card-parent {
   height: 42em;
+  /* width: 22em; */
 }
 
-@media (max-width: 1000px) {
-  /* Adjust styles for smaller screens */
-   {
-    flex-direction: column; /* Stack items vertically */
+/* @media (max-width: 1000px) {
+  {
+    flex-direction: column;
+  }
+} */
+
+.course-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-card-wrapper {
+  flex: 1 1 300px; /* Adjust the width of each card as needed */
+  margin: 10px; /* Adjust margin between cards */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .course-card-wrapper {
+    flex-basis: calc(50% - 20px); /* Display two cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .course-card-wrapper {
+    flex-basis: 100%; /* Display one card per row on even smaller screens */
   }
 }
