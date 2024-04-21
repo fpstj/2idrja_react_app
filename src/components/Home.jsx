@@ -4,7 +4,7 @@ import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './ui/Navbar';
 import Hero from './ui/Hero';
-// import OurMisiion from './ui/OurMission';
+import OurMisiion from './ui/OurMission';
 import Testimonials from './ui/Testimonials';
 import Footer from './ui/Footer';
 import CourseCard from './ui/CourseCard';
@@ -17,7 +17,9 @@ function Home() {
         <Navbar />
         <Hero />
       </div>
-      <div className="d-flex flex-column">{/* <OurMisiion /> */}</div>
+      <div className="d-flex flex-column">
+        <OurMisiion />
+      </div>
       <div className="d-flex flex-column">
         <Testimonials />
       </div>
