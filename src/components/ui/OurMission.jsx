@@ -24,7 +24,7 @@ const OurMisiion = () => {
               {/* <---------------------lines---------------------> */}
             </div>
             <div className="ps-lg-5">
-              <p className="fw-bold fs-5 text-start ps-5 pb-5">
+              <p className="fw-bold fs-5 text-start ps-5 pb-5 pe-3 pe-md-0">
                 "Unleashing Innovation, Igniting Change: Where
                 <br />
                 Boundless Research Shapes a Limitless Future!"
@@ -55,7 +55,9 @@ const OurMisiion = () => {
           <div className="d-flex flex-column col-lg-6 p-3">
             <h2 className="ps-5">Our mission</h2>
             <hr />
-            <p className="ps-3  paragraph lh-lg">
+            <p
+              className="ps-3  paragraph lh-lg pe-3
+            ">
               At the core of our organization lies a bold and unwavering mission: to pioneer
               transformative change through relentless innovation and purpose-driven research. We
               are on a quest to redefine possibilities, pushing the frontiers of knowledge to
