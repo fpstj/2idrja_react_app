@@ -7,30 +7,34 @@ const OurMisiion = () => {
     <>
       <div className=" pt-5">
         {/* 1st row */}
-        <div className="d-flex flex-column flex-lg-row w-100">
+        <div className="d-flex flex-column flex-lg-row w-100 w-lg-auto">
           <div className="frame d-flex flex-column col-lg-6">
             {/* header */}
-            <h1 className="mt-3 mb-2 ms-5">WHAT WE DO</h1>
+            <h1 className="mt-3 mb-2 ms-5 ps-lg-5">WHAT WE DO</h1>
             {/*  line*/}
 
             <div className="box mb-5">
-              <div className="lines">
+              {/* <---------------------lines---------------------> */}
+              {/* <div className="lines">
                 <div className="overlap-group">
                   <div className="rectangle" />
                   <div className="rectangle-2" />
                 </div>
-              </div>
+              </div> */}
+              {/* <---------------------lines---------------------> */}
             </div>
-            <p className="fw-bold fs-5 text-start ps-5">
-              "Unleashing Innovation, Igniting Change: Where
-              <br />
-              Boundless Research Shapes a Limitless Future!"
-            </p>
+            <div className="ps-lg-5">
+              <p className="fw-bold fs-5 text-start ps-5 pb-5">
+                "Unleashing Innovation, Igniting Change: Where
+                <br />
+                Boundless Research Shapes a Limitless Future!"
+              </p>
+            </div>
           </div>
 
           {/* text */}
           {/* <div className="d-flex flex-row flex-lg-column col-lg-6 w-100"> */}
-          <div className="d-flex flex-row flex-lg-column col-lg-6 p-3 pe-5 paragraph lh-lg">
+          <div className="d-flex flex-row flex-lg-column col-lg-6 ps-5 pe-5 paragraph lh-lg pb-5">
             We are driven by a profound commitment to catalyzing progress through pioneering
             research and innovation.Our focal point is a versatile approach aimed at advancing
             knowledge, fostering groundbreaking discoveries, and pushing the boundaries of
@@ -47,11 +51,11 @@ const OurMisiion = () => {
         </div>
 
         {/* 2nd row */}
-        <div className="d-flex flex-column flex-lg-row h-75 ps-lg-5">
+        <div className="d-flex flex-column flex-lg-row h-75 ps-lg-5 w-100 w-lg-auto">
           <div className="d-flex flex-column col-lg-6 p-3">
             <h2 className="ps-5">Our mission</h2>
             <hr />
-            <p className="ps-5 paragraph lh-lg">
+            <p className="ps-3  paragraph lh-lg">
               At the core of our organization lies a bold and unwavering mission: to pioneer
               transformative change through relentless innovation and purpose-driven research. We
               are on a quest to redefine possibilities, pushing the frontiers of knowledge to
@@ -69,7 +73,7 @@ const OurMisiion = () => {
         </div>
 
         {/* 3rd row */}
-        <div className="d-flex flex-md-row flex-sm-column  background-info w-100 py-5">
+        <div className="d-flex flex-md-row flex-sm-column  background-info w-100 py-5 w-100 w-lg-auto">
           <div className="frame mt-5">
             {/* problematic row */}
             <div className="d-flex flex-lg-row flex-md-column">
@@ -78,12 +82,14 @@ const OurMisiion = () => {
                 <h2 className="mt-3 my-4 ms-5">Our core beliefs</h2>
 
                 <div className="box mb-4">
-                  <div className="lines">
+                  {/* <---------------------lines---------------------> */}
+                  {/* <div className="lines">
                     <div className="overlap-group">
                       <div className="rectangle" />
                       <div className="rectangle-2" />
                     </div>
-                  </div>
+                  </div> */}
+                  {/* <---------------------lines---------------------> */}
                 </div>
 
                 <p className="text-start fs-3 fw-bold  ms-5">PURPOSE</p>

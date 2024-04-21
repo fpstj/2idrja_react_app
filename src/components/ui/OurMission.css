@@ -23,7 +23,7 @@ hr {
 }
 
 /* Lines */
-.frame .lines {
+.lines {
   position: relative;
   width: 550px;
   height: 6px;
@@ -57,27 +57,41 @@ hr {
 /* Lines */
 .lines {
   position: relative;
-  width: 550px;
-  height: 6px;
+  /* width: 550px; */
+  /* height: 6px; */
 }
 .overlap-group {
   position: relative;
-  height: 6px;
+  /* height: 6px; */
 }
 .rectangle {
-  width: 550px;
-  height: 2px;
-  top: 4px;
+  /* width: 550px; */
+  /* height: 2px; */
+  /* top: 4px; */
   background-color: #344152;
   position: absolute;
   left: 0;
 }
 .rectangle-2 {
-  width: 275px;
-  height: 6px;
+  /* width: 275px; */
+  /* height: 6px; */
   top: 0;
   background-color: #344152;
   position: absolute;
   left: 0;
 }
 /* Lines */
+
+/* OurMission.css */
+@media screen and (max-width: 768px) {
+  .flex-lg-row,
+  .flex-md-column {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .frame {
+    flex-direction: column;
+  }
+}
