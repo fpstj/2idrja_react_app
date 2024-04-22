@@ -69,7 +69,7 @@ const OurMisiion = () => {
               driven by a mission that transcends boundaries and inspires a legacy of innovation.
             </p>
           </div>
-          <div className="d-flex flex-row flex-lg-col col-lg-6 p-3 pe-5 paragraph">
+          <div className="d-flex flex-row flex-lg-col col-lg-6 p-3 pe-5 ">
             <img className="img-fluid" src={projectimg} alt="image of us" />
           </div>
         </div>
