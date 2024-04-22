@@ -4,7 +4,7 @@ import './Project.css';
 
 const Project = () => {
   return (
-    <div className="d-flex flex-column w-100">
+    <div className="d-flex flex-column w-100 py-3">
       {/* 1st row */}
       <div className="d-flex flex-column flex-lg-row h-75 ps-lg-5 w-100 w-lg-auto">
         <div className="frame d-flex flex-column col-lg-6 p-3">
@@ -20,7 +20,7 @@ const Project = () => {
           </div> */}
           {/* <---------------------lines---------------------> */}
 
-          <h3 className="mb-2 mx-">Key details of the project</h3>
+          <h3 className="mb-2 mx-5">Key details of the project</h3>
           <p className="pt-5 mx-3">
             We are driven by a profound commitment to catalyzing progress through pioneering
             research and innovation.
@@ -50,8 +50,11 @@ const Project = () => {
       </div>
 
       {/* 2nd row */}
-      <div className="d-flex flex-row-reverse w-100 pb-5">
-        <div className="frame-right d-flex flex-column col-6">
+      <div className="d-flex flex-column flex-lg-row  ps-lg-5 w-100 w-lg-auto py-5">
+        <div className="d-flex flex-row flex-lg-col col-lg-6 pe-5 p-3 col-12 order-lg-1 order-2">
+          <img className="img-fluid" src={projectimg} alt="Project Image" />
+        </div>
+        <div className="frame d-flex flex-column col-lg-6 p-3 col-12 order-lg-2 order-1">
           <h1 className="d-flex flex-row-reverse mt-3 mb-3 ms-5 pe-5">Name of project</h1>
           {/* <---------------------lines---------------------> */}
           {/* <div className="d-flex flex-row-reverse box mb-4">
@@ -87,9 +90,6 @@ const Project = () => {
             Join us in our relentless pursuit of knowledge, as we strive to create a world where
             innovation thrives and groundbreaking research propels us towards a brighter future.
           </p>
-        </div>
-        <div className="d-flex flex-row flex-lg-col col-lg-6 ps-5 p-3">
-          <img className="img-fluid" src={projectimg} alt="Project Image" />
         </div>
       </div>
     </div>
