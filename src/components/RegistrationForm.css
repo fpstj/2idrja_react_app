@@ -73,10 +73,10 @@
 .signup-form input[type='checkbox'] {
   margin-top: 3px;
 }
-.signup-form .btn {
+.signup-form .btn-registry {
   font-size: 16px;
   font-weight: bold;
-  min-width: 400px;
+  max-width: 400px;
   outline: none !important;
 }
 .signup-form .row div:first-child {
@@ -98,4 +98,26 @@
 }
 .signup-form form a:hover {
   text-decoration: underline;
+}
+
+/* RegistrationForm.css */
+
+/* <------------------------------responsive  -----------------------------> */
+
+/* Mobile breakpoint (e.g., 480px) */
+@media (max-width: 480px) {
+  .form-control {
+    font-size: 0.7rem;
+    width: 270px !important;
+  }
+  .signup-form {
+    width: 300px !important;
+  }
+
+  .btn-block {
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px !important;
+    outline: none !important;
+  }
 }
