@@ -75,7 +75,7 @@ const OurMisiion = () => {
         </div>
 
         {/* 3rd row */}
-        <div className="d-flex flex-md-row flex-sm-column  background-info w-100 py-5 w-100 w-lg-auto">
+        <div className="d-flex flex-md-row flex-sm-column  background-info py-5 w-100 w-lg-auto">
           <div className="frame mt-5">
             {/* problematic row */}
             <div className="d-flex flex-lg-row flex-md-column">

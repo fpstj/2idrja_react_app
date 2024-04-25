@@ -4,7 +4,7 @@ h1 {
 }
 
 .library-image {
-  min-width: 500px;
+  min-width: 250px;
   height: auto;
 }
 
@@ -14,4 +14,10 @@ h1 {
 
 .aboutus {
   font-size: 2.8em !important;
+}
+
+@media (max-width: 500px) {
+  .about--title {
+    font-size: 2.3em !important;
+  }
 }

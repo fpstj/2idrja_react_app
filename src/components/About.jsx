@@ -11,16 +11,17 @@ const About = () => {
       {/* title frame */}
       <div className="frame py-5 my-3">
         <h1 className="ps-5 mt-3 mb-3 py-2 aboutus">About us</h1>
-        <div className="lines">
+        {/* <div className="lines">
           <div className="overlap-group">
             <div className="rectangle"></div>
             <div className="rectangle-2"></div>
           </div>
-        </div>
+        </div> */}
       </div>
-
-      <div className="d-flex flex-row pb-5 pt-5 w-100 justify-content-around">
-        <div className="d-flex flex-column col-6 pt-3">
+      {/* 1st row */}
+      <div className="d-flex flex-lg-row flex-sm-column py-5 w-100 w-lg-auto justify-content-around">
+        {/* left column */}
+        <div className="d-flex flex-column col-lg-6 col-sm-12  pt-3">
           <p className="fw-bold fs-4 text-info ps-5">How we started</p>
 
           <h1 className="ps-5 mt-3 mb-3 about--title">
@@ -48,9 +49,9 @@ const About = () => {
             </p>
           </div>
         </div>
-
-        <div className="d-flex flex-column col-6 pb-5">
-          <img className="image-fluid library-image" src={library} alt="image of library" />
+        {/* right column */}
+        <div className="d-flex flex-column col-lg-6 col-sm-12  py-5 ">
+          <img className="img-fluid library-image" src={library} alt="image of library" />
           <div className="boxes d-flex flex-column mx-3 rounded bg-gray-200 p-3 shadow-lg">
             <div className="inside--boxes d-flex flex-row justify-content-around">
               <div className="box d-flex flex-column p-3 m-3 rounded bg-gray-100 w-100 shadow">
@@ -75,6 +76,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/* 2nd row */}
       <div>
         <p className="fs-5 ps-5 ms-4 pt-2 pb-3">Explore Our Showcase of Completed Projects:</p>
         <ul className="ps-5 ms-5">
