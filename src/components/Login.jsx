@@ -41,8 +41,8 @@ const Login = () => {
                 </label>
                 <Link to="#">Forgot password?</Link>
               </div>
-              <div className="form-group">
-                <button type="submit" className="btn btn-info btn-lg btn-block">
+              <div className="form-group  col-12">
+                <button type="submit" className="btn btn-info btn-lg col-12">
                   Sign in
                 </button>
               </div>

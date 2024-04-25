@@ -53,10 +53,10 @@
   padding: 30px;
 }
 
-.signup-form .btn {
+.signup-form .btn-login {
   font-size: 16px;
   font-weight: bold;
-  min-width: 390px;
+  max-width: 400px;
   outline: none !important;
 }
 
@@ -74,4 +74,22 @@
 }
 .signup-form form a:hover {
   text-decoration: underline;
+}
+
+/* Mobile breakpoint (e.g., 480px) */
+@media (max-width: 480px) {
+  .form-control {
+    font-size: 0.8rem;
+    width: 270px !important;
+  }
+  .signup-form {
+    width: 310px !important;
+  }
+
+  .btn-login {
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px !important;
+    outline: none !important;
+  }
 }

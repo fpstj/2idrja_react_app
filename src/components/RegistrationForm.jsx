@@ -12,8 +12,8 @@ const RegistrationForm = () => {
     <>
       <Navbar className="active text-white" />
       <div className="background-wallpaper-RF">
-        <div className="container-fluid container">
-          <div className="signup-form">
+        <div className="container-fluid container ">
+          <div className="signup-form ">
             <form>
               <h2>Register</h2>
               <p className="hint-text">Create your account. </p>
@@ -21,7 +21,7 @@ const RegistrationForm = () => {
                 {/* 1 */}
                 <div className="row">
                   {/* name */}
-                  <div className="col">
+                  <div className="col-12 col-md-6 pb-3 pb-lg-0">
                     <input
                       type="text"
                       className="form-control"
@@ -31,7 +31,7 @@ const RegistrationForm = () => {
                     />
                   </div>
                   {/* lastname */}
-                  <div className="col">
+                  <div className="col-12 col-md-6">
                     <input
                       type="text"
                       className="form-control"
@@ -96,8 +96,8 @@ const RegistrationForm = () => {
                   <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a>
                 </label>
               </div>
-              <div className="form-group pt-2">
-                <button type="submit" className="btn btn-primary btn-lg btn-block">
+              <div className="form-group btn-registry col-12">
+                <button type="submit" className="btn btn-primary btn-lg col-12">
                   Register Now
                 </button>
               </div>

@@ -4,21 +4,24 @@ import './Project.css';
 
 const Project = () => {
   return (
-    <div className="d-flex flex-column w-100">
+    <div className="d-flex flex-column w-100 py-3">
       {/* 1st row */}
-      <div className="d-flex flex-row w-100">
-        <div className="frame d-flex flex-column col-6">
+      <div className="d-flex flex-column flex-lg-row h-75 ps-lg-5 w-100 w-lg-auto">
+        <div className="frame d-flex flex-column col-lg-6 p-3">
           <h1 className="mt-3 mb-3 ms-5">Name of project</h1>
-          <div className="box mb-4">
+          {/* <---------------------lines---------------------> */}
+          {/* <div className="box mb-4">
             <div className="lines">
               <div className="overlap-group">
                 <div className="rectangle" />
                 <div className="rectangle-2" />
               </div>
             </div>
-          </div>
+          </div> */}
+          {/* <---------------------lines---------------------> */}
+
           <h3 className="mb-2 mx-5">Key details of the project</h3>
-          <p className="pt-5 mx-5">
+          <p className="pt-5 mx-3">
             We are driven by a profound commitment to catalyzing progress through pioneering
             research and innovation.
             <br />
@@ -41,23 +44,29 @@ const Project = () => {
             innovation thrives and groundbreaking research propels us towards a brighter future.
           </p>
         </div>
-        <div className="d-flex flex-column col-md-6 col-sm-12 justify-content-end align-self-start pe-5">
+        <div className="d-flex flex-row flex-lg-col col-lg-6 pe-5 p-3">
           <img className="img-fluid" src={projectimg} alt="Project Image" />
         </div>
       </div>
 
       {/* 2nd row */}
-      <div className="d-flex flex-row-reverse w-100">
-        <div className="frame-right d-flex flex-column col-6">
+      <div className="d-flex flex-column flex-lg-row  ps-lg-5 w-100 w-lg-auto py-5">
+        <div className="d-flex flex-row flex-lg-col col-lg-6 pe-5 p-3 col-12 order-lg-1 order-2">
+          <img className="img-fluid" src={projectimg} alt="Project Image" />
+        </div>
+        <div className="frame d-flex flex-column col-lg-6 p-3 col-12 order-lg-2 order-1">
           <h1 className="d-flex flex-row-reverse mt-3 mb-3 ms-5 pe-5">Name of project</h1>
-          <div className="d-flex flex-row-reverse box mb-4">
+          {/* <---------------------lines---------------------> */}
+          {/* <div className="d-flex flex-row-reverse box mb-4">
             <div className="lines-right">
               <div className="overlap-group-right">
                 <div className="rectangle-right" />
                 <div className="rectangle-2-right" />
               </div>
             </div>
-          </div>
+          </div> */}
+          {/* <---------------------lines---------------------> */}
+
           <h3 className="d-flex flex-row-reverse mb-2 pe-5">Key details of the project</h3>
           <p className="d-flex flex-row-reverse pt-5 pe-5 text-end">
             We are driven by a profound commitment to catalyzing progress through pioneering
@@ -81,9 +90,6 @@ const Project = () => {
             Join us in our relentless pursuit of knowledge, as we strive to create a world where
             innovation thrives and groundbreaking research propels us towards a brighter future.
           </p>
-        </div>
-        <div className="d-flex flex-column col-md-6 col-sm-12 justify-content-end align-self-start pe-5">
-          <img className="img-fluid" src={projectimg} alt="Project Image" />
         </div>
       </div>
     </div>
