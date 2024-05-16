@@ -11,10 +11,10 @@ const CourseCard = (props) => {
           alt="image of course"
         />
         <div className="d-flex flex-row p-3 mt-3 rounded justify-content-center align-items-center w-100">
-          <p className="paragraph fs-2">{props.title}</p>
+          <p className="cource-paragraph fs-2">{props.title}</p>
         </div>
         <div className="d-flex flex-row  rounded justify-content-center align-items-center w-100">
-          <p className="paragraph-date m-0">{props.duration}</p>
+          <p className="cource-paragraph-date m-0">{props.duration}</p>
         </div>
         <div className="d-flex flex-row  rounded justify-content-center align-items-center w-100">
           <p className="fs-2 text-secondary fw-bold me-4">
