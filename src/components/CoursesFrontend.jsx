@@ -20,14 +20,14 @@ const Frontend = () => {
       />
       <div className="d-flex flex-column my-5 frame">
         <h1 className="mt-3 mb-2 ms-5">Front-end development</h1>
-        <div className="box mb-5">
+        {/* <div className="box mb-5">
           <div className="lines">
             <div className="overlap-group">
               <div className="rectangle" />
               <div className="rectangle-2" />
             </div>
           </div>
-        </div>
+        </div> */}
         <h3 className="mb-5 ms-5">
           Elevate Your Skills with Our Cutting-Edge Front-End Development Course!
         </h3>
@@ -62,24 +62,28 @@ const Frontend = () => {
           💡 🖥️ #CodeToCreate #FrontEndMastery
         </p>
       </div>
-      <div className="d-flex flex-column my-5 frame">
-        <h1 className="d-flex mt-3 mb-2 ms-5">Our instructors</h1>
-        <div className="box mb-5">
+      <div className="d-flex flex-column my-5 frame ">
+        <h1 className="d-flex mt-3 mb-2 justify-content-center">Our instructors</h1>
+        {/* <div className="box mb-5">
           <div className="lines">
             <div className="overlap-group">
               <div className="rectangle" />
               <div className="rectangle-2" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="d-flex flex-row mt-5 mb-3">
-        <div className="d-flex flex-column col-md-3 col-sm-12 justify-content-end align-self-start">
-          <img className="img-thumbnail" src={profileImg1} alt="Project Image" />
+
+      {/* instructor 1 */}
+      <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
+        {/* image */}
+        <div className="d-flex flex-column col-lg-4 col-12 ">
+          <img className="img-fluid" src={profileImg1} alt="Project Image" />
         </div>
-        <div className="d-flex flex-column col-md-8 col-sm-12 ms-5 align-self-start mt-2">
-          <h1 className="mt-3">Full Name</h1>
-          <p className="pt-5">
+        {/* text */}
+        <div className="d-flex flex-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
+          <h1 className="mt-3">Full Name 1</h1>
+          <p className="pt-5 ms-5">
             Meet our seasoned Front-End Development instructor, a dynamic industry professional with
             a passion for cultivating the next generation of web developers. With a wealth of
             hands-on experience and a proven track record in the field, our instructor brings a
@@ -104,10 +108,13 @@ const Frontend = () => {
           </p>
         </div>
       </div>
-      <div className="d-flex flex-row justify-content-between mt-4 mb-5">
-        <div className="d-flex flex-column col-md-8 col-sm-12 ms-5 align-self-start mt-2">
-          <h1 className="mt-3">Full Name</h1>
-          <p className="pt-5">
+
+      {/* instructor 2 */}
+      <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
+        {/* text */}
+        <div className="d-flex flex-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
+          <h1 className="mt-3">Full Name 2</h1>
+          <p className="pt-5 ms-5">
             Meet our seasoned Front-End Development instructor, a dynamic industry professional with
             a passion for cultivating the next generation of web developers. With a wealth of
             hands-on experience and a proven track record in the field, our instructor brings a
@@ -131,17 +138,22 @@ const Frontend = () => {
             🚀 💻 #CodeWithConfidence #FrontEndInstructor
           </p>
         </div>
-        <div className="d-flex flex-column col-md-3 col-sm-12 justify-content-end align-self-start">
-          <img className="img-thumbnail" src={profileImg2} alt="Project Image" />
+        {/* image */}
+        <div className="d-flex flex-column col-lg-4 col-12 align-self-start">
+          <img className="img-fluid" src={profileImg2} alt="Project Image" />
         </div>
       </div>
-      <div className="d-flex flex-row mt-5 mb-3">
-        <div className="d-flex flex-column col-md-3 col-sm-12 justify-content-end align-self-start">
-          <img className="img-thumbnail" src={profileImg3} alt="Project Image" />
+
+      {/* instructor 3 */}
+      <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
+        {/* image */}
+        <div className="d-flex flex-column col-lg-4 col-12 align-self-start">
+          <img className="img-fluid" src={profileImg3} alt="Project Image" />
         </div>
-        <div className="d-flex flex-column col-md-8 col-sm-12 ms-5 align-self-start mt-2">
-          <h1 className="mt-3">Full Name</h1>
-          <p className="pt-5">
+        {/* text */}
+        <div className="d-flex flex-row flex-lg-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
+          <h1 className="mt-3 ">Full Name 3</h1>
+          <p className="pt-5 ms-5">
             Meet our seasoned Front-End Development instructor, a dynamic industry professional with
             a passion for cultivating the next generation of web developers. With a wealth of
             hands-on experience and a proven track record in the field, our instructor brings a

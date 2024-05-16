@@ -22,14 +22,15 @@ const Navbar = (props) => {
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon "></span>
+            aria-label="Toggle navigation"
+            data-bs-theme="dark">
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse justify-content-center align-items-center"
+            className="collapse navbar-collapse justify-content-end align-items-center "
             id="navbarSupportedContent">
             <div className="ms-auto">
-              <ul className="navbar-nav me-auto mb-lg-0">
+              <ul className="navbar-nav me-auto mb-lg-0 text-end">
                 <li className="nav-item">
                   <Link className="nav-link text-white" aria-current="page" to="/">
                     Home
@@ -91,7 +92,7 @@ const Navbar = (props) => {
               </ul>
             </div>
             <div className="ms-auto">
-              <ul className="navbar-nav  mb-lg-0 user-icon">
+              <ul className="navbar-nav  mb-lg-0 user-icon text-end">
                 <li className="nav-item dropdown ">
                   <Link
                     className="nav-link dropdown-toggle text-white"
