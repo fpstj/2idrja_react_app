@@ -73,7 +73,7 @@ const Frontend = () => {
           </div>
         </div> */}
       </div>
-      <div>
+      <div className="container">
         {/* instructor 1 */}
         <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
           {/* image */}
