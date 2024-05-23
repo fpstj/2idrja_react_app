@@ -20,11 +20,8 @@ function Home() {
       <div className="d-flex flex-column">
         <OurMisiion />
       </div>
-      <div className="d-flex flex-column">
-        <Testimonials />
-      </div>
 
-      <div className="course-list-container">
+      <div className="course-list-container p-5">
         <div className="course-list-wrapper">
           <CourseCard
             image="/images/html-wallpaper.jpg"
@@ -55,6 +52,9 @@ function Home() {
             places="7 places left"
           />
         </div>
+      </div>
+      <div className="d-flex flex-column">
+        <Testimonials />
       </div>
 
       <div>
