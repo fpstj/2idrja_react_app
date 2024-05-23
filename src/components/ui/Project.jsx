@@ -21,7 +21,7 @@ const Project = () => {
           {/* <---------------------lines---------------------> */}
 
           <h3 className="mb-2 mx-5">Key details of the project</h3>
-          <p className="pt-5 mx-3">
+          <p className="pt-5 mx-3 paragraph-justified">
             We are driven by a profound commitment to catalyzing progress through pioneering
             research and innovation.
             <br />
@@ -68,7 +68,7 @@ const Project = () => {
           {/* <---------------------lines---------------------> */}
 
           <h3 className="d-flex flex-row-reverse mb-2 pe-5">Key details of the project</h3>
-          <p className="d-flex flex-row-reverse pt-5 pe-5 text-end">
+          <p className="d-flex flex-row-reverse pt-5 pe-5 text-end paragraph-justified">
             We are driven by a profound commitment to catalyzing progress through pioneering
             research and innovation.
             <br />

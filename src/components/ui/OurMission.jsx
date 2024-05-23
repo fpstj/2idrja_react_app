@@ -34,7 +34,7 @@ const OurMisiion = () => {
 
           {/* text */}
           {/* <div className="d-flex flex-row flex-lg-column col-lg-6 w-100"> */}
-          <div className="d-flex flex-row flex-lg-column col-lg-6 ps-5 pe-5 paragraph lh-lg pb-5">
+          <div className="d-flex flex-row flex-lg-column col-lg-6 ps-5 pe-5 paragraph lh-lg pb-5 paragraph-justified">
             We are driven by a profound commitment to catalyzing progress through pioneering
             research and innovation.Our focal point is a versatile approach aimed at advancing
             knowledge, fostering groundbreaking discoveries, and pushing the boundaries of
@@ -55,9 +55,7 @@ const OurMisiion = () => {
           <div className="d-flex flex-column col-lg-6 p-3">
             <h2 className="ps-5">Our mission</h2>
             <hr />
-            <p
-              className="ps-3  paragraph lh-lg pe-3
-            ">
+            <p className="ps-3  paragraph lh-lg pe-3 paragraph-justified">
               At the core of our organization lies a bold and unwavering mission: to pioneer
               transformative change through relentless innovation and purpose-driven research. We
               are on a quest to redefine possibilities, pushing the frontiers of knowledge to
@@ -100,7 +98,7 @@ const OurMisiion = () => {
 
                 <p className="text-start fs-3 fw-bold  ms-5">PURPOSE</p>
                 <div>
-                  <p className="text-start fs-4 ms-5">
+                  <p className="text-start fs-4 ms-5 me-3">
                     "Meaningful work gives life purpose & connects you to something bigger than
                     yourself."
                   </p>
@@ -113,7 +111,7 @@ const OurMisiion = () => {
               {/* 2nd col */}
               <div className="col-lg-6 col-sm-12">
                 <div className=" flex-lg-column p-3 pe-5 paragraph lh-lg">
-                  <p className="ps-4 paragraph lh-lg pt-4">
+                  <p className="ps-4 paragraph lh-lg pt-4 paragraph-justified">
                     At the core of our organization lies a bold and unwavering mission: to pioneer
                     transformative change through relentless innovation and purpose-driven research.
                     We are on a quest to redefine possibilities, pushing the frontiers of knowledge

@@ -88,6 +88,10 @@ hr {
   .flex-md-column {
     flex-direction: column;
   }
+
+  .paragraph-justified {
+    text-align: justify;
+  }
 }
 
 @media screen and (max-width: 992px) {

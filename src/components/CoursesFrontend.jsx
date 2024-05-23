@@ -31,7 +31,7 @@ const Frontend = () => {
         <h3 className="mb-5 ms-5">
           Elevate Your Skills with Our Cutting-Edge Front-End Development Course!
         </h3>
-        <p className="pt-5 ms-5">
+        <p className="pt-5 mx-5 paragraph-justified">
           Embark on a transformative journey in the dynamic realm of web development with our
           comprehensive Front-End Development course. This meticulously crafted program is designed
           for aspiring developers eager to master the art of creating visually stunning and
@@ -73,109 +73,110 @@ const Frontend = () => {
           </div>
         </div> */}
       </div>
+      <div>
+        {/* instructor 1 */}
+        <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
+          {/* image */}
+          <div className="d-flex flex-column col-lg-4 col-12 ">
+            <img className="img-fluid" src={profileImg1} alt="Project Image" />
+          </div>
+          {/* text */}
+          <div className="d-flex flex-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
+            <h1 className="mt-3 mx-5">Full Name 1</h1>
+            <p className="pt-5 mx-5 paragraph-justified">
+              Meet our seasoned Front-End Development instructor, a dynamic industry professional
+              with a passion for cultivating the next generation of web developers. With a wealth of
+              hands-on experience and a proven track record in the field, our instructor brings a
+              unique blend of expertise and enthusiasm to the classroom.
+              <br />
+              <br />
+              Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
+              CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
+              for learners of all levels.
+              <br />
+              <br />
+              Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
+              CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
+              for learners of all levels.
+              <br />
+              <br />
+              Join us, and let our experienced instructor guide you on a transformative journey
+              toward front-end mastery!
+              <br />
+              <br />
+              🚀 💻 #CodeWithConfidence #FrontEndInstructor
+            </p>
+          </div>
+        </div>
 
-      {/* instructor 1 */}
-      <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
-        {/* image */}
-        <div className="d-flex flex-column col-lg-4 col-12 ">
-          <img className="img-fluid" src={profileImg1} alt="Project Image" />
+        {/* instructor 2 */}
+        <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
+          {/* text */}
+          <div className="d-flex flex-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
+            <h1 className="mt-3 mx-5">Full Name 2</h1>
+            <p className="pt-5 mx-5 paragraph-justified">
+              Meet our seasoned Front-End Development instructor, a dynamic industry professional
+              with a passion for cultivating the next generation of web developers. With a wealth of
+              hands-on experience and a proven track record in the field, our instructor brings a
+              unique blend of expertise and enthusiasm to the classroom.
+              <br />
+              <br />
+              Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
+              CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
+              for learners of all levels.
+              <br />
+              <br />
+              Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
+              CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
+              for learners of all levels.
+              <br />
+              <br />
+              Join us, and let our experienced instructor guide you on a transformative journey
+              toward front-end mastery!
+              <br />
+              <br />
+              🚀 💻 #CodeWithConfidence #FrontEndInstructor
+            </p>
+          </div>
+          {/* image */}
+          <div className="d-flex flex-column col-lg-4 col-12 align-self-start">
+            <img className="img-fluid" src={profileImg2} alt="Project Image" />
+          </div>
         </div>
-        {/* text */}
-        <div className="d-flex flex-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
-          <h1 className="mt-3">Full Name 1</h1>
-          <p className="pt-5 ms-5">
-            Meet our seasoned Front-End Development instructor, a dynamic industry professional with
-            a passion for cultivating the next generation of web developers. With a wealth of
-            hands-on experience and a proven track record in the field, our instructor brings a
-            unique blend of expertise and enthusiasm to the classroom.
-            <br />
-            <br />
-            Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
-            CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
-            for learners of all levels.
-            <br />
-            <br />
-            Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
-            CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
-            for learners of all levels.
-            <br />
-            <br />
-            Join us, and let our experienced instructor guide you on a transformative journey toward
-            front-end mastery!
-            <br />
-            <br />
-            🚀 💻 #CodeWithConfidence #FrontEndInstructor
-          </p>
-        </div>
-      </div>
 
-      {/* instructor 2 */}
-      <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
-        {/* text */}
-        <div className="d-flex flex-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
-          <h1 className="mt-3">Full Name 2</h1>
-          <p className="pt-5 ms-5">
-            Meet our seasoned Front-End Development instructor, a dynamic industry professional with
-            a passion for cultivating the next generation of web developers. With a wealth of
-            hands-on experience and a proven track record in the field, our instructor brings a
-            unique blend of expertise and enthusiasm to the classroom.
-            <br />
-            <br />
-            Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
-            CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
-            for learners of all levels.
-            <br />
-            <br />
-            Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
-            CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
-            for learners of all levels.
-            <br />
-            <br />
-            Join us, and let our experienced instructor guide you on a transformative journey toward
-            front-end mastery!
-            <br />
-            <br />
+        {/* instructor 3 */}
+        <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
+          {/* image */}
+          <div className="d-flex flex-column col-lg-4 col-12 ">
+            <img className="img-fluid" src={profileImg3} alt="Project Image" />
+          </div>
+          {/* text */}
+          <div className="d-flex flex-column  col-lg-7 col-12 ms-5 mt-2 align-self-start ">
+            <h1 className="mt-3 mx-5">Full Name 3</h1>
+            <p className="pt-5 mx-5 paragraph-justified">
+              Meet our seasoned Front-End Development instructor, a dynamic industry professional
+              with a passion for cultivating the next generation of web developers. With a wealth of
+              hands-on experience and a proven track record in the field, our instructor brings a
+              unique blend of expertise and enthusiasm to the classroom.
+              <br />
+              <br />
+              Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
+              CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
+              for learners of all levels.
+              <br />
+              <br />
+              Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
+              CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
+              for learners of all levels.
+              <br />
+              <br />
+              Join us, and let our experienced instructor guide you on a transformative journey
+              toward front-end mastery!
+              <br />
+              <br />
+            </p>
             🚀 💻 #CodeWithConfidence #FrontEndInstructor
-          </p>
-        </div>
-        {/* image */}
-        <div className="d-flex flex-column col-lg-4 col-12 align-self-start">
-          <img className="img-fluid" src={profileImg2} alt="Project Image" />
-        </div>
-      </div>
-
-      {/* instructor 3 */}
-      <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
-        {/* image */}
-        <div className="d-flex flex-column col-lg-4 col-12 align-self-start">
-          <img className="img-fluid" src={profileImg3} alt="Project Image" />
-        </div>
-        {/* text */}
-        <div className="d-flex flex-row flex-lg-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
-          <h1 className="mt-3 ">Full Name 3</h1>
-          <p className="pt-5 ms-5">
-            Meet our seasoned Front-End Development instructor, a dynamic industry professional with
-            a passion for cultivating the next generation of web developers. With a wealth of
-            hands-on experience and a proven track record in the field, our instructor brings a
-            unique blend of expertise and enthusiasm to the classroom.
-            <br />
-            <br />
-            Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
-            CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
-            for learners of all levels.
-            <br />
-            <br />
-            Their engaging teaching style seamlessly demystifies complex concepts, making HTML,
-            CSS/CSS (Saas), JavaScript, Bootstrap, and Git version control accessible and exciting
-            for learners of all levels.
-            <br />
-            <br />
-            Join us, and let our experienced instructor guide you on a transformative journey toward
-            front-end mastery!
-            <br />
-            <br />
-            🚀 💻 #CodeWithConfidence #FrontEndInstructor
-          </p>
+          </div>
         </div>
       </div>
       <div>
