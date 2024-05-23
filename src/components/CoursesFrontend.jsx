@@ -73,7 +73,7 @@ const Frontend = () => {
           </div>
         </div> */}
       </div>
-      <div className="container">
+      <div className="">
         {/* instructor 1 */}
         <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
           {/* image */}
@@ -81,7 +81,7 @@ const Frontend = () => {
             <img className="img-fluid" src={profileImg1} alt="Project Image" />
           </div>
           {/* text */}
-          <div className="d-flex flex-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
+          <div className="d-flex flex-column col-lg-7 col-12  mt-2 align-self-start ">
             <h1 className="mt-3 mx-5">Full Name 1</h1>
             <p className="pt-5 mx-5 paragraph-justified">
               Meet our seasoned Front-End Development instructor, a dynamic industry professional
@@ -112,7 +112,7 @@ const Frontend = () => {
         {/* instructor 2 */}
         <div className="d-flex flex-column flex-lg-row mt-4 mb-3">
           {/* text */}
-          <div className="d-flex flex-column col-lg-7 col-12 ms-5 mt-2 align-self-start ">
+          <div className="d-flex flex-column col-lg-7 col-12  mt-2 align-self-start ">
             <h1 className="mt-3 mx-5">Full Name 2</h1>
             <p className="pt-5 mx-5 paragraph-justified">
               Meet our seasoned Front-End Development instructor, a dynamic industry professional
@@ -151,7 +151,7 @@ const Frontend = () => {
             <img className="img-fluid" src={profileImg3} alt="Project Image" />
           </div>
           {/* text */}
-          <div className="d-flex flex-column  col-lg-7 col-12 ms-5 mt-2 align-self-start ">
+          <div className="d-flex flex-column col-lg-7 col-12  mt-2 align-self-start ">
             <h1 className="mt-3 mx-5">Full Name 3</h1>
             <p className="pt-5 mx-5 paragraph-justified">
               Meet our seasoned Front-End Development instructor, a dynamic industry professional
@@ -179,7 +179,7 @@ const Frontend = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="pt-5">
         <Footer />
       </div>
     </div>

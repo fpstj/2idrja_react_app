@@ -31,7 +31,7 @@ const About = () => {
             Transformation
           </h1>
           <div>
-            <p className="paragraph ps-5 pe-5 pt-5">
+            <p className="paragraph ps-5 pe-5 pt-5 paragraph-justified lh-lg">
               Welcome to [Platform Name] – Where Innovation Meets Expertise in Programming Education
               Since 2004! At [Platform Name], we have been at the forefront of empowering aspiring
               developers and designers to unleash their full potential in the dynamic world of
