@@ -6,21 +6,91 @@ import { CountryDropdown } from 'react-country-region-selector';
 import { Link } from 'react-router-dom';
 
 const RegistrationForm = () => {
-  const [country, setCountry] = useState('');
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    country: '',
+    mobileNumber: '',
+    email: '',
+    password: '',
+    confirmPassword: '',
+    termsOfUse: false
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleCheckboxChange = (e) => {
+    setFormData({
+      ...formData,
+      termsOfUse: e.target.checked
+    });
+  };
+
+  const handleCountryChange = (val) => {
+    setFormData({
+      ...formData,
+      country: val
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (formData.password !== formData.confirmPassword) {
+      console.log('Passwords do not match.');
+      return;
+    }
+
+    const userPayload = {
+      user: {
+        first_name: formData.firstName,
+        last_name: formData.lastName,
+        country: formData.country,
+        mobile_number: formData.mobileNumber,
+        email: formData.email,
+        password: formData.password,
+        password_confirmation: formData.confirmPassword,
+        terms_of_use: formData.termsOfUse
+      }
+    };
+
+    try {
+      const response = await fetch('http://localhost:3000/signup', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(userPayload)
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error('Registration failed:', errorData);
+      } else {
+        console.log('Registration successful!');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
 
   return (
     <>
       <Navbar className="active text-white" />
       <div className="background-wallpaper-RF">
-        <div className="container-fluid container ">
-          <div className="signup-form ">
-            <form>
+        <div className="container-fluid container">
+          <div className="signup-form">
+            <form onSubmit={handleSubmit}>
               <h2>Register</h2>
               <p className="hint-text">Create your account. </p>
               <div className="form-group">
-                {/* 1 */}
                 <div className="row">
-                  {/* name */}
                   <div className="col-12 col-md-6 pb-3 pb-lg-0">
                     <input
                       type="text"
@@ -28,9 +98,10 @@ const RegistrationForm = () => {
                       name="firstName"
                       placeholder="First Name"
                       required="required"
+                      value={formData.firstName}
+                      onChange={handleInputChange}
                     />
                   </div>
-                  {/* lastname */}
                   <div className="col-12 col-md-6">
                     <input
                       type="text"
@@ -38,19 +109,19 @@ const RegistrationForm = () => {
                       name="lastName"
                       placeholder="Last Name"
                       required="required"
+                      value={formData.lastName}
+                      onChange={handleInputChange}
                     />
                   </div>
                 </div>
               </div>
-              {/* country */}
               <div className="form-group">
                 <CountryDropdown
                   className="form-control"
-                  value={country}
-                  onChange={(val) => setCountry(val)}
+                  value={formData.country}
+                  onChange={handleCountryChange}
                 />
               </div>
-              {/* mobile */}
               <div className="form-group">
                 <input
                   type="text"
@@ -58,9 +129,10 @@ const RegistrationForm = () => {
                   name="mobileNumber"
                   placeholder="Mobile Number"
                   required
+                  value={formData.mobileNumber}
+                  onChange={handleInputChange}
                 />
               </div>
-              {/* email */}
               <div className="form-group">
                 <input
                   type="email"
@@ -68,9 +140,10 @@ const RegistrationForm = () => {
                   name="email"
                   placeholder="Email"
                   required="required"
+                  value={formData.email}
+                  onChange={handleInputChange}
                 />
               </div>
-              {/* password */}
               <div className="form-group">
                 <input
                   type="password"
@@ -78,9 +151,10 @@ const RegistrationForm = () => {
                   name="password"
                   placeholder="Password"
                   required="required"
+                  value={formData.password}
+                  onChange={handleInputChange}
                 />
               </div>
-
               <div className="form-group">
                 <input
                   type="password"
@@ -88,12 +162,19 @@ const RegistrationForm = () => {
                   name="confirmPassword"
                   placeholder="Confirm Password"
                   required="required"
+                  value={formData.confirmPassword}
+                  onChange={handleInputChange}
                 />
               </div>
               <div className="form-group">
-                <label className="form-check-label ">
-                  <input type="checkbox" required="required" /> I accept the{' '}
-                  <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a>
+                <label className="form-check-label">
+                  <input
+                    type="checkbox"
+                    required="required"
+                    checked={formData.termsOfUse}
+                    onChange={handleCheckboxChange}
+                  />{' '}
+                  I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a>
                 </label>
               </div>
               <div className="form-group btn-registry col-12">
