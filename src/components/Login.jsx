@@ -41,6 +41,9 @@ const Login = () => {
         const errorData = await response.json();
         console.error('Login failed:', errorData);
       } else {
+        const data = await response.json();
+        const token = data.token; // Adjust this based on your API response
+        sessionStorage.setItem('jwt', token);
         console.log('Login successful!');
         // Handle successful login, e.g., redirect to another page
       }
