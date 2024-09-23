@@ -12,6 +12,7 @@ import About from './components/About';
 import RegistrationForm from './components/RegistrationForm';
 import Login from './components/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ErrorPage from './components/ErrorPage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/coursesreact" element={<CoursesReact />} />
         <Route path="/coursesuiux" element={<CoursesUIUX />} />
         <Route path="/about" element={<About />} />
+        <Route path="/errorpage" element={<ErrorPage />}></Route>
       </Routes>
     </BrowserRouter>
   );
