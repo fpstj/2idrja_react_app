@@ -8,6 +8,10 @@
   background: linear-gradient(90deg, rgba(193, 147, 197, 1) 0%, rgba(123, 198, 204, 1) 100%);
 }
 
+.background-wallpaper {
+  background-image: url('/public/images/404error.svg');
+}
+
 .error-content {
   text-align: center;
 }
